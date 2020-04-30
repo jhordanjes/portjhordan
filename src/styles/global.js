@@ -13,13 +13,13 @@ export default createGlobalStyle`
   }
 
   body{
-    background: linear-gradient(to right, #141414, #212121);
+    background: linear-gradient(to bottom, #141414, #050505);
     -webkit-font-smoothing: antialiased;
   }
 
   body::-webkit-scrollbar {
     width: 0.5em;
-    background: #212121;
+    background: linear-gradient(to bottom, #141414, #050505);
   }
   
   body::-webkit-scrollbar-track {
@@ -54,6 +54,6 @@ export default createGlobalStyle`
   }
 
   p{
-    color: rgba(255,255,255,0.3); 
+    color: rgba(255,255,255,0.5); 
   }
 `;

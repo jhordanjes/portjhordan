@@ -21,7 +21,7 @@ export default function Contact() {
             <Content>
               <Social>
                   <li> <a href="https://github.com/jhordanjes">github</a></li>
-                  <li> <a href="https://instagram.com/jhordanjes">instagram </a></li>
+                  <li> <a href="https://instagram.com/jhordanjesse">instagram </a></li>
                   <li> <a href="https://instagram.com/jhordanjes">linkedin </a></li>
               </Social>
 

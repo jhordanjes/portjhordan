@@ -46,6 +46,7 @@ export const Container = styled.div`
             padding-top: 10px;
 
             &:hover{
+                color: #fff;
                 &::before{
                     content: '';
                     position: absolute;
@@ -67,12 +68,17 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-    background: rgba(1,1,1,0.5);
+    background: rgba(255,255,255,0.7);
     padding: 50px 20px;
     margin-top: 70px;
     justify-items: center;
     display: flex;
     justify-content: space-between;
+    transition: 0.9s;
+
+    &:hover{
+        background: #fff;
+    }
 
     @media (max-width: 768px) {
         padding: 80px 10px;
@@ -84,6 +90,9 @@ export const Content = styled.div`
 
     p{
         width: 500px;
+        color: rgba(1,1,1,0.7);
+        font-weight: bold;
+        font-size: 15px;
         @media (max-width: 768px) {
             width: 315px;
         }
@@ -101,7 +110,7 @@ export const Social = styled.ul`
         transition: 0.6s;
 
         a{
-            color: #fff;
+            color: #000;
             font-size: 15px;
             font-weight: bold;
             text-transform: uppercase;
@@ -111,7 +120,7 @@ export const Social = styled.ul`
             
 
             &:hover{
-                color: rgba(255,255,255,0.7);
+                color: rgba(1,1,1,0.8);
                 &::before{
                     content: '';
                     position: absolute;

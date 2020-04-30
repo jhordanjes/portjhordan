@@ -23,7 +23,7 @@ const deslize = keyframes`
 `;
 
 export const Container = styled.div`
-  background: rgba(1, 1, 1, 0.2);
+  box-shadow: 0px 0px 50px rgba(1, 1, 1, 0.2);
   padding: 0 100px;
 
 
@@ -58,6 +58,20 @@ export const Content = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  >div{
+    &:last-child{
+      display: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    >div{
+      &:last-child{
+        display: block;
+      }
+    }
+  }
 
   aside{
     a{

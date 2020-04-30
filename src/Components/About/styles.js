@@ -100,6 +100,9 @@ export const Content = styled.div`
 
         &:last-child{
             animation: ${faderight} 0.7s linear;
+            @media (max-width: 768px) {
+                padding-top: 30px;
+            }
         }
     }
 

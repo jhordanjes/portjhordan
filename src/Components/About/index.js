@@ -11,9 +11,9 @@ export default function About() {
                 <img src={jhordan} alt="Jhordan Jesse" />
             </div>
             <div>
-                <span>Quem sou<b>_</b></span>
+                <span>Olá, amg<b>_</b></span>
                 <p>
-                    Olá, me chamo <b>Jhordan Jessé</b>, nasci em Maués/AM e atualmente sou desenvolvedor fullstack como freelancer, além de ser um cara apaixonado por JavaScript e todo o ecossistema dessa tecnologia.
+                    Me chamo <b>Jhordan Jessé</b>, nasci em Maués/AM e atualmente sou desenvolvedor fullstack como freelancer, além de ser um cara apaixonado por JavaScript e todo o ecossistema dessa tecnologia.
                 </p>
                 <p>
                     Sou formado em Ciência da Computação pela Uninorte - Am, mas, esse não é a único curso que já fiz, eu também partipei do GoStack da Rocketseat.
