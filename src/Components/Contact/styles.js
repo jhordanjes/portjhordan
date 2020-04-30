@@ -13,13 +13,13 @@ export const Container = styled.div`
     padding: 50px 170px 20px 170px;
 
     @media (max-width: 768px) {
-        padding: 50px 25px;    
+        padding: 50px 10px;    
     }
 
     aside{
         padding-left: 70px;
         @media (max-width: 768px) {
-            padding: 0;        
+            padding-left: 20px;        
         }
         >p{
             margin-top: 7px;
@@ -32,7 +32,7 @@ export const Container = styled.div`
             color: #00c853;
 
             @media (max-width: 768px) {
-                font-size: 40px;        
+                font-size: 40px;       
             }
         }
 
@@ -69,13 +69,13 @@ export const Container = styled.div`
 export const Content = styled.div`
     background: rgba(1,1,1,0.5);
     padding: 50px 20px;
-    margin-top: 20px;
+    margin-top: 70px;
     justify-items: center;
     display: flex;
     justify-content: space-between;
 
     @media (max-width: 768px) {
-        padding: 50px 10px;
+        padding: 80px 10px;
         display: grid;
         justify-content: center;
     }

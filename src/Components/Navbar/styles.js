@@ -71,8 +71,12 @@ export const Content = styled.div`
       display: inline-block;
 
       @media (max-width: 768px) {
-        margin-left: 5px;
+        margin-left: 10px;
         font-size: 14;
+
+        &:first-child{
+          display: none;
+        }
       }
     
       &:hover{

@@ -8,7 +8,7 @@ export const Container = styled.div`
   padding: 50px 170px;
 
   @media (max-width: 768px) {
-    padding: 50px 50px;
+    padding: 50px 25px;
   }
 
 
