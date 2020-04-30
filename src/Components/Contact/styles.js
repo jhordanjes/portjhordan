@@ -81,6 +81,7 @@ export const Content = styled.div`
     }
 
     @media (max-width: 768px) {
+        margin-top: 90px;
         padding: 80px 10px;
         display: grid;
         justify-content: center;
