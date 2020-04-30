@@ -46,7 +46,7 @@ export const Container = styled.div`
     padding: 25px 170px 50px 170px;
 
     @media (max-width: 768px) {
-        padding: 0px 50px;
+        padding: 0px 25px;
     }
 
     >div{

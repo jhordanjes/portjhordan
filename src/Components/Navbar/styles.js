@@ -34,7 +34,7 @@ export const Container = styled.div`
   }
 
   @media (max-width: 768px) {
-    padding: 0px 20px;
+    padding: 0px 15px;
 
     button{
       display: ${props => (props.menu ? 'none' : 'block')};
@@ -63,7 +63,6 @@ export const Content = styled.div`
     a{
       color: #fff;
       margin-left: 35px;
-      padding-bottom: 7px;
       text-transform: uppercase;
       font-size: 15px;
       font-weight: bold;
@@ -73,6 +72,7 @@ export const Content = styled.div`
 
       @media (max-width: 768px) {
         margin-left: 5px;
+        font-size: 14;
       }
     
       &:hover{
