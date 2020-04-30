@@ -13,7 +13,7 @@ export const Container = styled.div`
     padding: 50px 170px 20px 170px;
 
     @media (max-width: 768px) {
-        padding: 50px 50px 20px 50px;    
+        padding: 50px 20px 20px 20px;    
     }
 
     aside{
@@ -32,7 +32,7 @@ export const Container = styled.div`
             color: #00c853;
 
             @media (max-width: 768px) {
-                font-size: 45px;        
+                font-size: 40px;        
             }
         }
 
@@ -58,7 +58,7 @@ export const Container = styled.div`
             }
 
             @media (max-width: 768px) {
-                font-size: 45px;        
+                font-size: 40px;        
             }
         }
 

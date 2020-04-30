@@ -72,7 +72,7 @@ export const Content = styled.div`
       display: inline-block;
 
       @media (max-width: 768px) {
-        margin-left: 10px;
+        margin-left: 5px;
       }
     
       &:hover{
@@ -85,7 +85,6 @@ export const Content = styled.div`
           background: rgba(0, 0, 0, 0.9);
           box-sizing: inherit;
           animation: ${deslize} 600ms ease forwards;
-          touch-action: manipulation;
         }
       }
     }

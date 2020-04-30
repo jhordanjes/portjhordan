@@ -83,6 +83,10 @@ export const Content = styled.div`
             b{
                 color: #00c853;
             }
+
+            @media (max-width: 768px) {
+                font-size: 40px;
+            }
         }
 
         &:first-child{
