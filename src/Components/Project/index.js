@@ -13,11 +13,11 @@ export default function Project() {
             Abaixo estão alguns projetos que fiz parte.
             Buscando um crescimento constantemente.
         </p>
+        
         <Projects>
             <ul>
-                <li>
-                 
-                        <img src={gobarber} alt="projeto" />
+                <li>             
+                    <img src={gobarber} alt="projeto" />
                  
                     <div>
                         <span>Gobarber</span>
@@ -25,17 +25,15 @@ export default function Project() {
                     </div>
                 </li>
                 <li>
-                    
-                        <img src={aircnc} alt="projeto" />
-                  
+                    <img src={aircnc} alt="projeto" />
+        
                     <div>
                         <span>AirCnc</span>
                         <p>Uma aplicação para prestadores de serviço</p>
                     </div>
                 </li>
                 <li>
-                    
-                        <img src={rocketshoes} alt="projeto" />
+                    <img src={rocketshoes} alt="projeto" />
                     
                     <div>
                         <span>Rocketshoes</span>
@@ -43,8 +41,7 @@ export default function Project() {
                     </div>
                 </li>
                 <li>
-                    
-                        <img src={aircnc} alt="projeto" />
+                    <img src={aircnc} alt="projeto" />
                     
                     <div>
                         <span>Gobarber</span>

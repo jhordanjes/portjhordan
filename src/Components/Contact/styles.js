@@ -25,7 +25,7 @@ export const Container = styled.div`
             margin-top: 7px;
         }
 
-        > span{
+        span{
             display: flex;
             font-size: 70px;
             font-weight: bold;

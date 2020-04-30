@@ -7,10 +7,9 @@ import Routes from './routes';
 function App() {
   return (
     <Router history={history}>
-      <Routes />
+      <Routes />  
       <GlobalStyle />
     </Router>
-    
   );
 }
 

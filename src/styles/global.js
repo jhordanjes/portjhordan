@@ -8,6 +8,10 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
+  html{
+   scroll-behavior: smooth;
+  }
+
   body{
     background: linear-gradient(to right, #141414, #212121);
     -webkit-font-smoothing: antialiased;

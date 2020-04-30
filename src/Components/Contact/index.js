@@ -1,18 +1,18 @@
 import React from 'react';
-import Bounce from 'react-reveal/Bounce';
+import Fade from 'react-reveal/Fade';
 import { Container, Social, Content } from './styles';
 
 export default function Contact() {
   return (
     <Container id="c">
             <aside>
-              <Bounce left>
+              <Fade left>
                 <span>Você está</span>
                 <span>precisando de</span>
                 <span>ajuda em</span>
                 <span>algum projeto?</span>
                 <a href="https://github.com/jhordanjes">Vamos nos falar.</a>
-              </Bounce>
+              </Fade>
               <p>
                 Vou adorar te ajudar com seus projetos ;)
               </p>
