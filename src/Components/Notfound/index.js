@@ -1,4 +1,5 @@
 import React from 'react';
+import history from '../../services/history';
 import { Container, First, Last } from './styles';
 
 export default function Notfound() {
@@ -7,14 +8,13 @@ export default function Notfound() {
         <First>
             <div>
                 <span>Puts. você encontrou um</span>
-                <h1>404</h1>
+                <h1>404_</h1>
             </div>
         </First>
         <Last>
             <div>
-                <p>Foi mal, cara.</p>
-                <p>Você tá perdidaço, ou eu sem querer te levei pra um lugar sem saída :(</p>
-                <button>Voltar para a home</button>
+                <p>O que você procura não existe :(</p>
+                <button type="button" onClick={() => history.push('/')}>Voltar para a home</button>
             </div>
         </Last>
     </Container>

@@ -46,7 +46,7 @@ export const Container = styled.div`
     padding: 25px 170px 50px 170px;
 
     @media (max-width: 768px) {
-        padding: 0px 25px 30px 25px;
+        padding: 0px 25px 55px 25px;
     }
 
     >div{
@@ -58,7 +58,7 @@ export const Container = styled.div`
         animation: ${jump} 1.1s linear infinite;
 
         @media (max-width: 768px) {
-            margin-top: -80px;
+            margin-top: -20px;
         }
     }
 `;

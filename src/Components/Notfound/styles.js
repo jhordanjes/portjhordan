@@ -2,21 +2,21 @@ import styled,{ keyframes } from 'styled-components';
 
 const rolate = keyframes`
   0% {
-    transform: rotate(2deg);
+    transform: translateX(5px);
   }
   25% {
-    transform: rotate(0);
+    transform: translateX(0px);
   }
 
   50% {
-      transform: rotate(-2deg);
+      transform: translateX(-5px);
   }
 
   75% {
-      transform: rotate(0);
+      transform: translateX(0px);
   }
   100% {
-      transform: rotate(2deg);
+      transform: translateX(5px);
   }
 `;
 

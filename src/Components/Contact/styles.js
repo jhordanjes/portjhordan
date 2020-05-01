@@ -121,7 +121,7 @@ export const Social = styled.ul`
             
 
             &:hover{
-                color: rgba(255,255,255,0.7);
+                color: rgba(255,255,255,0.6);
                 &::before{
                     content: '';
                     position: absolute;
