@@ -44,7 +44,7 @@ export default function Project() {
                     <img src={aircnc} alt="projeto" />
                     
                     <div>
-                        <span>Gobarber</span>
+                        <span>Github Repositories</span>
                         <p>Uma aplicação para prestadores de serviço</p>
                     </div>
                 </li>

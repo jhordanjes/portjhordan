@@ -23,7 +23,6 @@ const deslize = keyframes`
 `;
 
 export const Container = styled.div`
-  box-shadow: 0px 0px 50px rgba(1, 1, 1, 0.6);
   padding: 0 100px;
 
 

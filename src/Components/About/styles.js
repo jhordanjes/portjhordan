@@ -111,12 +111,12 @@ export const Content = styled.div`
         border-radius: 50%;
         justify-self: center;
         box-shadow: 0px 0px 100px rgba(255,255,255,0.1);
-        border: 4px solid rgba(255,255,255,0.2);
+        border: 3px solid rgba(255,255,255,0.2);
         transition: 0.4s;
 
         &:hover{
-            box-shadow: 0px 0px 20px rgba(255,255,255,0.3);
-            border: 4px solid rgba(255,255,255,0.9);
+            box-shadow: 0px 0px 100px rgba(255,255,255,0.3);
+            border: 3px solid rgba(255,255,255,0.9);
         }
     }
 
