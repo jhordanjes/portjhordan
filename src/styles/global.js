@@ -13,13 +13,13 @@ export default createGlobalStyle`
   }
 
   body{
-    background: #141414;
+    background: linear-gradient(to right, #141414, #212121);
     -webkit-font-smoothing: antialiased;
   }
 
   body::-webkit-scrollbar {
     width: 0.5em;
-    background: #141414;
+    background: #212121;
   }
   
   body::-webkit-scrollbar-track {
