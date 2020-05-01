@@ -46,7 +46,7 @@ export const Container = styled.div`
     padding: 25px 170px 50px 170px;
 
     @media (max-width: 768px) {
-        padding: 0px 25px;
+        padding: 0px 25px 30px 25px;
     }
 
     >div{
@@ -56,6 +56,10 @@ export const Container = styled.div`
     svg{
         margin-top: 10px;
         animation: ${jump} 1.1s linear infinite;
+
+        @media (max-width: 768px) {
+            margin-top: -80px;
+        }
     }
 `;
 
@@ -115,8 +119,7 @@ export const Content = styled.div`
         transition: 0.4s;
 
         &:hover{
-            box-shadow: 0px 0px 100px rgba(255,255,255,0.3);
-            border: 3px solid rgba(255,255,255,0.9);
+            box-shadow: 0px 0px 100px rgba(255,255,255,0.2);
         }
     }
 
