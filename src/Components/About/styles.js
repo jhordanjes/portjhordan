@@ -95,7 +95,7 @@ export const Content = styled.div`
 
         &:first-child{
             padding-right: 80px;
-            animation: ${fadeleft} 0.7s linear;
+            animation: ${fadeleft} 0.9s linear;
 
             @media (max-width: 768px) {
                 padding: 0;
@@ -103,7 +103,7 @@ export const Content = styled.div`
         }
 
         &:last-child{
-            animation: ${faderight} 0.7s linear;
+            animation: ${faderight} 0.9s linear;
             @media (max-width: 768px) {
                 padding-top: 30px;
             }
