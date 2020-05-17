@@ -112,6 +112,7 @@ export const Content = styled.div`
 
     img{
         width: 240px;
+        background-color: #ccc;
         border-radius: 50%;
         justify-self: center;
         box-shadow: 0px 0px 100px rgba(255,255,255,0.1);
