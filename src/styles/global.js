@@ -37,7 +37,9 @@ export default createGlobalStyle`
   }
 
   ::selection{
-    background: rgba(255,255,255,0.2);
+
+    background: #F5EFE1;
+    color: #fff;
   }
 
   #root{

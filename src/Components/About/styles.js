@@ -95,9 +95,34 @@ export const Content = styled.div`
 
         &:first-child{
             padding-right: 80px;
-            animation: ${fadeleft} 0.9s linear;
-        
+            animation: ${fadeleft} 1.9s linear;
+            position: relative;
 
+            &::before{
+                content: '';
+                position: absolute;
+                width: 270px;
+                height: 210px;
+                border-radius: 50%;
+                background: #212121;
+                box-shadow: 0px 0px 600px rgba(255,255,255,0.1);
+                transform: skewX(20deg);
+                z-index: -1;
+            }
+
+            &::after{
+                content: '';
+                position: absolute;
+                width: 250px;
+                height: 200px;
+                left: -5px;
+                bottom: 1px;
+                border-radius: 50%;
+                background: #212121;
+                transform: skewX(-20deg);
+                z-index: -1;
+            }
+    
             @media (max-width: 768px) {
                 padding: 0;
             }
@@ -118,7 +143,7 @@ export const Content = styled.div`
         border-radius: 50%;
         justify-self: center;
         box-shadow: 0px 0px 100px rgba(255,255,255,0.1);
-        border: 3px solid rgba(255,255,255,0.2);
+        border: 2px solid transparent;
         transition: 0.4s;
 
         &:hover{
@@ -128,8 +153,6 @@ export const Content = styled.div`
 
     p{
         margin-top: 20px;
-        text-align: justify;
-
         b{
             color: #00c853;
         }
