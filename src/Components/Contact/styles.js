@@ -9,14 +9,6 @@ const upAnimate = keyframes`
   }
 `;
 
-const colors = keyframes`
-  from {
-    background: linear-gradient(to right, rgba(1,1,1,0.5), rgba(1,1,1,0.7));
-  }
-  to {
-    background: linear-gradient(to center, rgba(1,1,1,0.5), rgba(1,1,1,0.7));
-  }
-`;
 
 export const Container = styled.div`
     padding: 50px 170px 20px 170px;
@@ -77,18 +69,14 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-    background: rgba(1,1,1,0.9);
-    box-shadow: 0px 0px 80px rgba(1,1,1,0.9);
+    background: #212121;
+    box-shadow: 0px 0px 50px rgba(255,255,255,0.1);
     padding: 50px 20px;
     margin-top: 70px;
     justify-items: center;
     display: flex;
     justify-content: space-between;
     transition: 0.9s;
-
-    &:hover{
-        animation: ${colors} 3.5s linear infinite;
-    }
 
     @media (max-width: 768px) {
         margin-top: 90px;

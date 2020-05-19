@@ -1,13 +1,4 @@
-import { createGlobalStyle, keyframes } from 'styled-components';
-
-const colors = keyframes`
-  from {
-    background: #141414;
-  }
-  to {
-    background: #000;
-  }
-`;
+import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
   * {
@@ -22,14 +13,13 @@ export default createGlobalStyle`
   }
 
   body{
-    background: #141414;
-    animation: ${colors} 3.5s linear infinite;
+    background: #000;
     -webkit-font-smoothing: antialiased;
   }
 
   body::-webkit-scrollbar {
     width: 0.5em;
-    background: #212121;
+    background: #000;
   }
   
   body::-webkit-scrollbar-track {

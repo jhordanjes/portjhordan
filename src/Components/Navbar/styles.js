@@ -52,7 +52,7 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  height: 75px;
+  height: 85px;
   width: 100%;
   display: flex;
   justify-content: space-between;

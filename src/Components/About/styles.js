@@ -42,7 +42,7 @@ const fadeleft = keyframes`
 
 export const Container = styled.div`
     width: 100%;
-    margin-top: 70px;
+    margin: 75px 0px;
     padding: 25px 170px 50px 170px;
 
     @media (max-width: 768px) {

@@ -11,7 +11,7 @@ export default function About() {
                 <img src={jhordan} alt="Jhordan Jesse" />
             </div>
             <div>
-                <span>Olá, amg<b>_</b></span>
+                <span>Quem sou<b>_</b></span>
                 <p>
                     Me chamo <b>Jhordan Jessé</b>. Atualmente sou desenvolvedor fullstack como freelancer, além de ser um cara apaixonado por React, React Native, Node.js.
                 </p>
