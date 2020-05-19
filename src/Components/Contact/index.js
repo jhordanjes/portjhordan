@@ -15,7 +15,7 @@ export default function Contact() {
                 <Link to="/notfound">Vamos nos falar.</Link>
               </Fade>
               <p>
-                Conte-me sobre o seu projeto. Vou adorar te ajudar ;)
+                Vou adorar poder te ajudar ;)
               </p>
             </aside>
             

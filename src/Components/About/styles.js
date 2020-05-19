@@ -96,6 +96,7 @@ export const Content = styled.div`
         &:first-child{
             padding-right: 80px;
             animation: ${fadeleft} 0.9s linear;
+        
 
             @media (max-width: 768px) {
                 padding: 0;

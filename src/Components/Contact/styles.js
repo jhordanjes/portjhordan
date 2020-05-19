@@ -70,13 +70,16 @@ export const Container = styled.div`
 
 export const Content = styled.div`
     background: #212121;
-    box-shadow: 0px 0px 50px rgba(255,255,255,0.1);
     padding: 50px 20px;
     margin-top: 70px;
     justify-items: center;
     display: flex;
     justify-content: space-between;
     transition: 0.9s;
+
+    &:hover{
+        box-shadow: 0px 0px 50px rgba(255,255,255,0.1);
+    }
 
     @media (max-width: 768px) {
         margin-top: 90px;
