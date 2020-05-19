@@ -1,4 +1,13 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle, keyframes } from 'styled-components';
+
+const colors = keyframes`
+  from {
+    background: #141414;
+  }
+  to {
+    background: #000;
+  }
+`;
 
 export default createGlobalStyle`
   * {
@@ -13,7 +22,8 @@ export default createGlobalStyle`
   }
 
   body{
-    background: linear-gradient(to right, #141414, #212121);
+    background: #141414;
+    animation: ${colors} 3.5s linear infinite;
     -webkit-font-smoothing: antialiased;
   }
 

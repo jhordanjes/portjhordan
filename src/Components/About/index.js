@@ -13,7 +13,7 @@ export default function About() {
             <div>
                 <span>Olá, amg<b>_</b></span>
                 <p>
-                    Me chamo <b>Jhordan Jessé</b>, nasci em Maués/AM. Atualmente sou desenvolvedor fullstack como freelancer, além de ser um cara apaixonado por React, React Native, Node.js.
+                    Me chamo <b>Jhordan Jessé</b>. Atualmente sou desenvolvedor fullstack como freelancer, além de ser um cara apaixonado por React, React Native, Node.js.
                 </p>
                 <p>
                     Sou formado em Ciência da Computação pela Uninorte - Am, mas, esse não é a único curso que já fiz, eu também partipei do GoStack da Rocketseat.

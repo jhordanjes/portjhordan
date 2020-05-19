@@ -9,6 +9,15 @@ const upAnimate = keyframes`
   }
 `;
 
+const colors = keyframes`
+  from {
+    background: linear-gradient(to right, rgba(1,1,1,0.5), rgba(1,1,1,0.7));
+  }
+  to {
+    background: linear-gradient(to center, rgba(1,1,1,0.5), rgba(1,1,1,0.7));
+  }
+`;
+
 export const Container = styled.div`
     padding: 50px 170px 20px 170px;
 
@@ -78,7 +87,7 @@ export const Content = styled.div`
     transition: 0.9s;
 
     &:hover{
-        background: rgba(1,1,1,0.8);
+        animation: ${colors} 3.5s linear infinite;
     }
 
     @media (max-width: 768px) {
