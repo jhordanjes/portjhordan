@@ -33,7 +33,7 @@ export const Container = styled.div`
   }
 
   @media (max-width: 768px) {
-    padding: 0px 15px;
+    padding: 0px 25px;
 
     button{
       display: ${props => (props.menu ? 'none' : 'block')};
@@ -93,6 +93,10 @@ export const Content = styled.div`
       }
     
       &:hover{
+        overflow: hidden;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+
         &::before{
           content: '';
           position: absolute;

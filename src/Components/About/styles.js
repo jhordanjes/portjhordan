@@ -20,7 +20,7 @@ const jump = keyframes`
 
 const faderight = keyframes`
     from {
-        transform: translateX(50px);
+        transform: translateX(70px);
         opacity: 0;
     }
     to {
@@ -31,11 +31,20 @@ const faderight = keyframes`
 
 const fadeleft = keyframes`
     from {
-        transform: translateX(-50px);
+        transform: translateX(-70px);
         opacity: 0;
     }
     to {
         transform: translateX(0);
+        opacity: 1;
+    }
+`;
+
+const digite = keyframes`
+    from {
+        opacity: 0;
+    }
+    to {
         opacity: 1;
     }
 `;
@@ -78,7 +87,6 @@ export const Content = styled.div`
         span{
             font-size: 55px;
             font-weight: 600;
-            margin-top: 40px;
             color: #fff;
             text-align: start;
             letter-spacing: 2px;
@@ -86,6 +94,7 @@ export const Content = styled.div`
 
             b{
                 color: #00c853;
+                animation: ${digite} 0.9s infinite;
             }
 
             @media (max-width: 768px) {
@@ -95,14 +104,14 @@ export const Content = styled.div`
 
         &:first-child{
             padding-right: 80px;
-            animation: ${fadeleft} 1.9s linear;
+            animation: ${fadeleft} 0.9s linear;
             position: relative;
 
             &::before{
                 content: '';
                 position: absolute;
                 width: 270px;
-                height: 210px;
+                height: 220px;
                 border-radius: 50%;
                 background: #212121;
                 box-shadow: 0px 0px 600px rgba(255,255,255,0.1);
@@ -114,7 +123,7 @@ export const Content = styled.div`
                 content: '';
                 position: absolute;
                 width: 250px;
-                height: 200px;
+                height: 240px;
                 left: -5px;
                 bottom: 1px;
                 border-radius: 50%;
