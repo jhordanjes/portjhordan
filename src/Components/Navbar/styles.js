@@ -118,7 +118,7 @@ export const Logo = styled.div`
   display: inline-block;
   transition: 0.5s;
   background: transparent;
-  box-shadow: 0px 0px 500px rgb(0, 200, 83, 0.9);
+  box-shadow: 0px 0px 700px rgb(1, 200, 83);
 
   &:hover{
     letter-spacing: 2px;
