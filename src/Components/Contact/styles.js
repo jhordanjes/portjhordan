@@ -22,6 +22,7 @@ export const Container = styled.div`
         top: 80px;
         left: -190px;
         background: #141414;
+        box-shadow: 0px 0px 500px rgba(1,1,1,0.9);
         transform: rotate(45deg);
         z-index: -1;
     }
@@ -89,10 +90,7 @@ export const Content = styled.div`
     display: flex;
     justify-content: space-between;
     transition: 0.9s;
-
-    &:hover{
-        box-shadow: 0px 0px 50px rgba(255,255,255,0.1);
-    }
+    box-shadow: 0px 0px 500px rgba(1,1,1,0.9);
 
     @media (max-width: 768px) {
         margin-top: 90px;

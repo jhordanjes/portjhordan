@@ -6,6 +6,7 @@ import { Container, Content } from './styles';
 export default function About() {
   return (
     <Container id="q">
+       
         <Content>
             <div>
                 <img src={jhordan} alt="Jhordan Jesse" />

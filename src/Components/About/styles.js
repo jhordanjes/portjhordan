@@ -42,23 +42,23 @@ const fadeleft = keyframes`
 
 const boolone = keyframes`
     0% {
-        width: 250px;
+        width: 220px;
         transform: skewX(0deg);
     }
     25% {
-        width: 255px;
+        width: 230x;
         transform: skewX(10deg);
     }
     50% {
-        width: 260px;
+        width: 240px;
         transform: skewX(25deg);
     }
     75%{
-        width: 255px;
+        width: 230x;
         transform: skewX(10deg);
     }
     100%{
-        width: 250px;
+        width: 220px;
         transform: skewX(0deg);
     }
 `;
@@ -69,15 +69,15 @@ const booltwo = keyframes`
         transform: skewX(-25deg);
     }
     25% {
-        width: 240px;
+        width: 230px;
         transform: skewX(-10deg);
     }
     50% {
-        width: 245px;
+        width: 240px;
         transform: skewX(0deg);
     }
     75%{
-        width: 240px;
+        width: 230px;
         transform: skewX(-10deg);
     }
     100%{
@@ -101,7 +101,7 @@ export const Container = styled.div`
 
     svg{
         margin-top: 10px;
-        animation: ${jump} 1.1s linear infinite;
+        animation: ${jump} 1.7s linear infinite;
 
         @media (max-width: 768px) {
             margin-top: -20px;
@@ -155,17 +155,17 @@ export const Content = styled.div`
             &::before{
                 content: '';
                 position: absolute;
-                animation: ${boolone} 1.5s linear infinite;
+                animation: ${boolone} 1.7s linear infinite;
                 height: 230px;
                 border-radius: 50%;
-                left: -20px;
+                left: 0px;
                 background: rgba(255,255,255,0.1);
                 z-index: -1;
             }
             &::after{
                 content: '';
                 position: absolute;
-                animation: ${booltwo} 1.5s linear infinite;
+                animation: ${booltwo} 1.7s linear infinite;
                 height: 230px;
                 left: 0px;    
                 border-radius: 50%;
@@ -192,8 +192,7 @@ export const Content = styled.div`
         background-color: rgba(255,255,255,0.1);
         border-radius: 50%;
         justify-self: center;
-        opacity: 0.9;
-        box-shadow: 0px 0px 500px rgba(255,255,255,0.2);
+        box-shadow: 0px 0px 500px rgba(1,1,1,0.9);
         border: 2px solid transparent;
         transition: 0.4s;
     }
@@ -204,4 +203,12 @@ export const Content = styled.div`
             color: #00c853;
         }
     }
+`;
+
+export const Cloud = styled.div`
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 150px;
+    z-index: -1;
 `;
