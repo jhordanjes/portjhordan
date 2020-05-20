@@ -30,7 +30,7 @@ export const Span = styled.span`
     content: '';
     position: absolute;
     width: 170px;
-    height: 10px;
+    height: 15px;
     left: 0px;
     top: 10px;
     background: rgba(255,255,255,0.1);

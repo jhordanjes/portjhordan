@@ -42,47 +42,47 @@ const fadeleft = keyframes`
 
 const boolone = keyframes`
     0% {
-        width: 260px;
-        transform: skewX(18deg);
+        width: 250px;
+        transform: skewX(0deg);
     }
     25% {
-        width: 265px;
-        transform: skewX(19deg);
+        width: 255px;
+        transform: skewX(10deg);
     }
     50% {
-        width: 270px;
+        width: 260px;
         transform: skewX(25deg);
     }
     75%{
-        width: 265px;
-        transform: skewX(19deg);
+        width: 255px;
+        transform: skewX(10deg);
     }
     100%{
-        width: 260px;
-        transform: skewX(18deg);
+        width: 250px;
+        transform: skewX(0deg);
     }
 `;
 
 const booltwo = keyframes`
     0% {
-        width: 240px;
-        transform: skewX(-20deg);
+        width: 220px;
+        transform: skewX(-25deg);
     }
     25% {
-        width: 245px;
-        transform: skewX(-19deg);
+        width: 240px;
+        transform: skewX(-10deg);
     }
     50% {
-        width: 260px;
-        transform: skewX(-18deg);
+        width: 245px;
+        transform: skewX(0deg);
     }
     75%{
-        width: 245px;
-        transform: skewX(-19deg);
+        width: 240px;
+        transform: skewX(-10deg);
     }
     100%{
-        width: 240px;
-        transform: skewX(-20deg);
+        width: 220px;
+        transform: skewX(-25deg);
     }
 `;
 
@@ -138,10 +138,10 @@ export const Content = styled.div`
                 content: '';
                 position: absolute;
                 width: 170px;
-                height: 10px;
+                height: 15px;
                 left: 0px;
                 top: 10px;
-                background: #141414;
+                background: rgba(255,255,255,0.1);
                 z-index: -1;
                 transform: skewY(-3deg);
             }
@@ -158,18 +158,18 @@ export const Content = styled.div`
                 animation: ${boolone} 1.5s linear infinite;
                 height: 230px;
                 border-radius: 50%;
-                background: #212121;
+                left: -20px;
+                background: rgba(255,255,255,0.1);
                 z-index: -1;
             }
             &::after{
                 content: '';
                 position: absolute;
                 animation: ${booltwo} 1.5s linear infinite;
-                height: 240px;
-                left: -5px;
-                bottom: 1px;
+                height: 230px;
+                left: 0px;    
                 border-radius: 50%;
-                background: #212121;
+                background: rgba(255,255,255,0.1);
                 z-index: -1;
             }
     
@@ -181,17 +181,18 @@ export const Content = styled.div`
         &:last-child{
             animation: ${faderight} 0.9s linear;
             @media (max-width: 768px) {
-                padding-top: 30px;
+                padding-top: 70px;
             }
         }
     }
 
     img{
-        width: 240px;
-        height: 240px;
+        width: 230px;
+        height: 230px;
         background-color: rgba(255,255,255,0.1);
         border-radius: 50%;
         justify-self: center;
+        opacity: 0.5px;
         box-shadow: 0px 0px 500px rgba(255,255,255,0.2);
         border: 2px solid transparent;
         transition: 0.4s;
