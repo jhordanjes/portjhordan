@@ -24,6 +24,7 @@ const deslize = keyframes`
 
 export const Container = styled.div`
   padding: 0 170px;
+  box-shadow: 0px 0px 500px rgb(1, 1, 1);
 
 
   button{
@@ -57,7 +58,7 @@ export const Content = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  
   >div{
     &:last-child{
       display: none;
@@ -118,7 +119,6 @@ export const Logo = styled.div`
   display: inline-block;
   transition: 0.5s;
   background: transparent;
-  box-shadow: 0px 0px 700px rgb(1, 200, 83);
 
   &:hover{
     letter-spacing: 2px;
