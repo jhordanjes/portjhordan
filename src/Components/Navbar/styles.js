@@ -24,7 +24,6 @@ const deslize = keyframes`
 
 export const Container = styled.div`
   padding: 0 170px;
-  box-shadow: 0px 0px 500px rgb(1, 1, 1);
 
 
   button{
