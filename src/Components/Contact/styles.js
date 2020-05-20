@@ -9,6 +9,15 @@ const upAnimate = keyframes`
   }
 `;
 
+const faderight = keyframes`
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+`;
+
 
 export const Container = styled.div`
     padding: 50px 170px 20px 170px;
@@ -24,6 +33,20 @@ export const Container = styled.div`
         background: #141414;
         box-shadow: 0px 0px 500px rgba(1,1,1,0.9);
         transform: rotate(45deg);
+        z-index: -1;
+    }
+
+    &::after{
+        content: '';
+        position: absolute;
+        width: 380px;
+        height: 380px;
+        top: 80px;
+        animation: ${faderight} 0.9s linear;
+        right: 0;
+        background: #141414;
+        box-shadow: 0px 0px 500px rgba(1,1,1,0.5);
+        transform: skewY(-50deg);
         z-index: -1;
     }
 

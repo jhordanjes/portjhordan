@@ -1,8 +1,7 @@
 import React from 'react';
 import { DiCode } from 'react-icons/di';
-import gobarber from '../../assets/gobarber.png';
+import gobarber from '../../assets/github.png';
 import aircnc from '../../assets/aircnc.png';
-import rocketshoes from '../../assets/rocketshoes.png';
 import { Container, Projects, Span } from './styles';
 
 export default function Project() {
@@ -33,7 +32,7 @@ export default function Project() {
                     </div>
                 </li>
                 <li>
-                    <img src={rocketshoes} alt="projeto" />
+                    <img src={aircnc} alt="projeto" />
                     
                     <div>
                         <span>Rocketshoes</span>
@@ -41,7 +40,7 @@ export default function Project() {
                     </div>
                 </li>
                 <li>
-                    <img src={aircnc} alt="projeto" />
+                    <img src={gobarber} alt="projeto" />
                     
                     <div>
                         <span>Github Repositories</span>

@@ -74,7 +74,7 @@ export const Content = styled.div`
 
   aside{
     a{
-      color: #fff;
+      color: rgba(255,255,255,0.7);
       margin-left: 35px;
       text-transform: uppercase;
       font-size: 15px;
@@ -94,6 +94,7 @@ export const Content = styled.div`
     
       &:hover{
         overflow: hidden;
+        color: rgba(255,255,255);
 
         &::before{
           content: '';

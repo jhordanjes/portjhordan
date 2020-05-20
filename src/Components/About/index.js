@@ -12,12 +12,12 @@ export default function About() {
                 <img src={jhordan} alt="Jhordan Jesse" />
             </div>
             <div>
-                <span>Quem sou<b>_</b></span>
+                <span>Introdução<b>_</b></span>
                 <p>
-                    Me chamo <b>Jhordan Jessé</b>. Atualmente sou desenvolvedor fullstack como freelancer, além de ser um cara apaixonado por React, React Native, Node.js.
+                    Me chamo <b>Jhordan Jessé</b>. Atualmente sou desenvolvedor fullstack freelancer, além de ser um cara apaixonado por React, React Native, Node.js.
                 </p>
                 <p>
-                    Sou formado em Ciência da Computação pela Uninorte - Am, mas, esse não é a único curso que já fiz, eu também partipei do GoStack da Rocketseat.
+                    Sou formado em Ciência da Computação pela Uninorte - Am, mas esse não é a único curso que já fiz.
                 </p>    
                 <p>
                     Escrevo código e melhoro meu design e habilidades todos os dias.
