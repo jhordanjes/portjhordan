@@ -7,7 +7,7 @@ export default function Notfound() {
     <Container>
         <First>
             <div>
-                <span>Puts. você encontrou um</span>
+                <span>Puts, você encontrou um</span>
                 <h1>404_</h1>
             </div>
         </First>

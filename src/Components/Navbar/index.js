@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { FiMenu } from 'react-icons/fi';
 import { Container, Logo, Content} from './styles';
 
@@ -12,9 +13,12 @@ export default function Navbar() {
   return (
     <Container menu={menu} >
       <Content>
-        <Logo>
-          Jhor <span>dan_</span>
-        </Logo>
+        <Link to="/">
+          <Logo>
+            Jhor <span>dan_</span>
+          </Logo>
+        </Link>
+        
         <aside>
             <a href="#q">
               Quem sou
