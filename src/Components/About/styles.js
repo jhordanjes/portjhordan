@@ -114,7 +114,7 @@ export const Content = styled.div`
                 height: 220px;
                 border-radius: 50%;
                 background: #212121;
-                box-shadow: 0px 0px 600px rgba(255,255,255,0.1);
+                box-shadow: 0px 0px 600px rgba(255,255,255,0.3);
                 transform: skewX(20deg);
                 z-index: -1;
             }

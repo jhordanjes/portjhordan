@@ -23,7 +23,7 @@ const deslize = keyframes`
 `;
 
 export const Container = styled.div`
-  padding: 0 100px;
+  padding: 0 170px;
 
 
   button{

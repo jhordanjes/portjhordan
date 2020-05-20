@@ -12,6 +12,19 @@ const upAnimate = keyframes`
 
 export const Container = styled.div`
     padding: 50px 170px 20px 170px;
+    position: relative;
+
+    &::before{
+        content: '';
+        position: absolute;
+        width: 350px;
+        height: 350px;
+        top: 70px;
+        left: -180px;
+        background: #141414;
+        transform: rotate(45deg);
+        z-index: -1;
+    }
 
     @media (max-width: 768px) {
         padding: 50px 10px;    
