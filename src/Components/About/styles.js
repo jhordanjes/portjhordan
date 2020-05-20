@@ -192,7 +192,7 @@ export const Content = styled.div`
         background-color: rgba(255,255,255,0.1);
         border-radius: 50%;
         justify-self: center;
-        opacity: 0.5px;
+        opacity: 0.9;
         box-shadow: 0px 0px 500px rgba(255,255,255,0.2);
         border: 2px solid transparent;
         transition: 0.4s;
