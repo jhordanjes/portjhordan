@@ -40,12 +40,49 @@ const fadeleft = keyframes`
     }
 `;
 
-const digite = keyframes`
-    from {
-        opacity: 0;
+const boolone = keyframes`
+    0% {
+        width: 260px;
+        transform: skewX(18deg);
     }
-    to {
-        opacity: 1;
+    25% {
+        width: 265px;
+        transform: skewX(19deg);
+    }
+    50% {
+        width: 270px;
+        transform: skewX(25deg);
+    }
+    75%{
+        width: 265px;
+        transform: skewX(19deg);
+    }
+    100%{
+        width: 260px;
+        transform: skewX(18deg);
+    }
+`;
+
+const booltwo = keyframes`
+    0% {
+        width: 240px;
+        transform: skewX(-20deg);
+    }
+    25% {
+        width: 245px;
+        transform: skewX(-19deg);
+    }
+    50% {
+        width: 260px;
+        transform: skewX(-18deg);
+    }
+    75%{
+        width: 245px;
+        transform: skewX(-19deg);
+    }
+    100%{
+        width: 240px;
+        transform: skewX(-20deg);
     }
 `;
 
@@ -94,7 +131,6 @@ export const Content = styled.div`
 
             b{
                 color: #00c853;
-                animation: ${digite} 0.9s infinite;
             }
 
             @media (max-width: 768px) {
@@ -110,25 +146,21 @@ export const Content = styled.div`
             &::before{
                 content: '';
                 position: absolute;
-                width: 270px;
-                height: 220px;
+                animation: ${boolone} 1.5s linear infinite;
+                height: 230px;
                 border-radius: 50%;
                 background: #212121;
-                box-shadow: 0px 0px 600px rgba(255,255,255,0.3);
-                transform: skewX(20deg);
                 z-index: -1;
             }
-
             &::after{
                 content: '';
                 position: absolute;
-                width: 250px;
+                animation: ${booltwo} 1.5s linear infinite;
                 height: 240px;
                 left: -5px;
                 bottom: 1px;
                 border-radius: 50%;
                 background: #212121;
-                transform: skewX(-20deg);
                 z-index: -1;
             }
     
@@ -151,13 +183,9 @@ export const Content = styled.div`
         background-color: rgba(255,255,255,0.1);
         border-radius: 50%;
         justify-self: center;
-        box-shadow: 0px 0px 100px rgba(255,255,255,0.1);
+        box-shadow: 0px 0px 500px rgba(255,255,255,0.2);
         border: 2px solid transparent;
         transition: 0.4s;
-
-        &:hover{
-            box-shadow: 0px 0px 100px rgba(255,255,255,0.2);
-        }
     }
 
     p{

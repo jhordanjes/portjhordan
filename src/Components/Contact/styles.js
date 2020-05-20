@@ -17,10 +17,10 @@ export const Container = styled.div`
     &::before{
         content: '';
         position: absolute;
-        width: 350px;
-        height: 350px;
-        top: 70px;
-        left: -180px;
+        width: 380px;
+        height: 380px;
+        top: 80px;
+        left: -190px;
         background: #141414;
         transform: rotate(45deg);
         z-index: -1;
