@@ -94,8 +94,6 @@ export const Content = styled.div`
     
       &:hover{
         overflow: hidden;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
 
         &::before{
           content: '';

@@ -3,12 +3,12 @@ import { DiCode } from 'react-icons/di';
 import gobarber from '../../assets/gobarber.png';
 import aircnc from '../../assets/aircnc.png';
 import rocketshoes from '../../assets/rocketshoes.png';
-import { Container, Projects } from './styles';
+import { Container, Projects, Span } from './styles';
 
 export default function Project() {
   return (
     <Container id="p">
-        <span>Projetos <DiCode color="#00c853" /></span>
+        <Span>Projetos <DiCode color="#00c853" /></Span>
         <p>
             Abaixo estão alguns projetos que fiz parte.
             Buscando um crescimento constantemente.

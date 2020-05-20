@@ -11,21 +11,31 @@ export const Container = styled.div`
     padding: 50px 25px;
   }
 
-
-  > span{
-    font-size: 60px;
-    color: #fff;
-    font-weight: 600;
-
-    @media (max-width: 768px) {
-      font-size: 40px;
-    }
-  }
-
   p{
     margin-top: 20px;
   }
 
+`;
+
+export const Span = styled.span`
+  font-size: 25px;
+  color: #fff;
+  font-weight: 600;
+  text-align: start;
+  letter-spacing: 2px;
+  transition: 0.4s;
+  position: relative;
+
+  &::before{
+    content: '';
+    position: absolute;
+    width: 170px;
+    height: 10px;
+    left: 0px;
+    top: 10px;
+    background: rgba(255,255,255,0.1);
+    transform: skewY(-3deg);
+  }
 `;
 
 export const Projects = styled.div`

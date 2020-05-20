@@ -122,19 +122,28 @@ export const Content = styled.div`
         text-align: start;
 
         span{
-            font-size: 55px;
-            font-weight: 600;
+            font-size: 25px;
             color: #fff;
+            font-weight: 600;
             text-align: start;
             letter-spacing: 2px;
             transition: 0.4s;
+            position: relative;
 
             b{
                 color: #00c853;
             }
 
-            @media (max-width: 768px) {
-                font-size: 40px;
+            &::before{
+                content: '';
+                position: absolute;
+                width: 170px;
+                height: 10px;
+                left: 0px;
+                top: 10px;
+                background: #141414;
+                z-index: -1;
+                transform: skewY(-3deg);
             }
         }
 
