@@ -10,7 +10,7 @@ export const Container = styled.div`
   
   &::before{
     content: 'Developer';
-    color: rgb(255,255,255,0.1);
+    color: rgb(1,1,1,0.1);
     font-size: 110px;
     bottom: -40px;
     letter-spacing: 5px;
