@@ -31,6 +31,10 @@ export const Container = styled.div`
         border: 1px solid rgba(255,255,255,0.2);
     }
 
+    @media (max-width: 940px) {
+        padding: 50px;
+    }
+
     @media (max-width: 768px) {
         padding: 0px 25px 55px 25px;
 
@@ -99,7 +103,7 @@ export const Image = styled.div`
         transition: 0.4s;
     }
     
-    @media (max-width: 768px) {
+    @media (max-width: 940px) {
         padding: 0;
     }
 `;
@@ -110,12 +114,13 @@ export const Text = styled.div`
 
     p{
         margin-top: 20px;
+        color: rgba(255,255,255,0.5);
         b{
             color: #00c853;
         }
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 940px) {
         top: 55px;
     }
 `;
@@ -124,7 +129,7 @@ export const Content = styled.div`
     display: flex;
     justify-content: space-between;
 
-    @media (max-width: 768px) {
+    @media (max-width: 940px) {
         display: grid;
     }
 

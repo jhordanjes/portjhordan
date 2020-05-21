@@ -1,35 +1,30 @@
-import styled, { keyframes } from 'styled-components';
-
-const upAnimate = keyframes`
-  from {
-    opacity: 0;
-    transform: translateY(-200px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-`;
-
-const deslize = keyframes`
-  from {
-    opacity: 0;
-    transform: translateX(-100px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-`;
+import styled from 'styled-components';
+import { up, deslize } from '../../util/keyframes';
 
 export const Container = styled.div`
   padding: 0 170px;
-
 
   button{
     display: none;
     background: none;
     border: none;
+  }
+
+  @media (max-width: 940px) {
+    padding: 0 50px;
+
+    button{
+      display: ${props => (props.menu ? 'none' : 'block')};
+    }
+
+    aside{
+      display: ${props => (props.menu ? 'block' : 'none')};
+      animation: ${up} 600ms ease forwards;
+
+      a{
+        margin-left: 5px;
+      }
+    }
   }
 
   @media (max-width: 768px) {
@@ -41,7 +36,7 @@ export const Container = styled.div`
 
     aside{
       display: ${props => (props.menu ? 'block' : 'none')};
-      animation: ${upAnimate} 600ms ease forwards;
+      animation: ${up} 600ms ease forwards;
 
       a{
         margin-left: 5px;
@@ -64,7 +59,7 @@ export const Content = styled.div`
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 940px) {
     >div{
       &:last-child{
         display: block;
@@ -118,7 +113,6 @@ export const Logo = styled.div`
   transition: 0.1s;
   display: inline-block;
   transition: 0.5s;
-  background: transparent;
 
   &:hover{
     letter-spacing: 2px;

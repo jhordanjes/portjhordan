@@ -30,10 +30,17 @@ export const Container = styled.div`
     }
   }
 
+  @media (max-width: 940px) {
+    padding: 50px;
+  }
+
   p{
     margin-top: 20px;
   }
 
+  b{
+    color: #00c853;
+  }
 `;
 
 export const Title = styled.h1`
@@ -45,10 +52,6 @@ export const Title = styled.h1`
     transition: 1.9s;
     display: flex;
     position: relative;
-
-    b{
-        color: #00c853;
-    }
 
     span{
         cursor: default;
@@ -74,7 +77,7 @@ export const Projects = styled.div`
   padding: 60px 50px;
   text-align: center;
 
-  @media (max-width: 768px) {
+  @media (max-width: 940px) {
     padding: 60px 0px;
   }
 
@@ -98,6 +101,10 @@ export const Projects = styled.div`
     @media (max-width: 768px) {
       width: 90%;
     }
+
+    @media (max-width: 940px) {
+      width: 350px;
+    }
     
     &:hover{
       width: 440px;
@@ -105,23 +112,31 @@ export const Projects = styled.div`
       @media (max-width: 768px) {
         width: 100%;
       }
+
+      @media (max-width: 940px) {
+        width: 360px;
+      }
     }
   }
 
   ul li:hover span{
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: #00c853;
-  
   }
+`;
 
-  ul li span{
-    font-size: 25px;
-    transition: 0.4s;
-    color: #fff;
-  }
-
-  ul li p{
+export const Description = styled.div`
+  p{
     position: relative;
     bottom: 10px;
+    color: rgba(255,255,255,0.4);
+  }
+
+  span{
+    font-size: 25px;
+    transition: 0.4s;
+    color: rgba(255,255,255,0.9);
+    overflow: hidden;
+    position: relative;
   }
 `;

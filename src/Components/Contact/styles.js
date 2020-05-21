@@ -50,7 +50,7 @@ export const Container = styled.div`
         z-index: -1;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 940px) {
         padding: 50px 10px;    
     }
 

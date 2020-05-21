@@ -1,7 +1,6 @@
 import React from 'react';
-import gobarber from '../../assets/github.png';
 import aircnc from '../../assets/aircnc.png';
-import { Container, Projects, Title } from './styles';
+import { Container, Projects, Title, Description } from './styles';
 
 export default function Project() {
   return (
@@ -19,43 +18,39 @@ export default function Project() {
             <b>&nbsp;/&gt;</b>
         </Title>
         <p>
-            Abaixo estão alguns projetos que fiz parte.
-            Buscando um crescimento constantemente.
+            Abaixo estão alguns projetos recentes<b>.</b>
+            &nbsp;Buscando um crescimento constantemente<b>.</b>
         </p>
         
         <Projects>
             <ul>
                 <li>             
-                    <img src={gobarber} alt="projeto" />
-                 
-                    <div>
-                        <span>Gobarber</span>
+                    <img src={aircnc} alt="projeto" />
+                    <Description>
+                        <span>Gobarber<b>_</b></span>
                         <p>Uma aplicação para prestadores de serviço</p>
-                    </div>
+                    </Description>
                 </li>
                 <li>
                     <img src={aircnc} alt="projeto" />
-        
-                    <div>
-                        <span>AirCnc</span>
-                        <p>Uma aplicação para prestadores de serviço</p>
-                    </div>
+                    <Description>
+                        <span>AirCnc<b>_</b></span>
+                        <p>Semana Omnistack 9, disponibilizar espaço para dev.</p>
+                    </Description>
                 </li>
                 <li>
                     <img src={aircnc} alt="projeto" />
-                    
-                    <div>
-                        <span>Rocketshoes</span>
+                    <Description>
+                        <span>Rocketshoes<b>_</b></span>
                         <p>Uma aplicação para prestadores de serviço</p>
-                    </div>
+                    </Description>
                 </li>
                 <li>
-                    <img src={gobarber} alt="projeto" />
-                    
-                    <div>
-                        <span>Github Repositories</span>
+                    <img src={aircnc} alt="projeto" />
+                    <Description>
+                        <span>Github Repositories<b>_</b></span>
                         <p>Uma aplicação para prestadores de serviço</p>
-                    </div>
+                    </Description>
                 </li>
             </ul>
         </Projects>
