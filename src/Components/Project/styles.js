@@ -25,7 +25,7 @@ export const Container = styled.div`
 
     &::before{
       font-size: 70px;
-      bottom: -250px;
+      bottom: -160px;
     }
   }
 
