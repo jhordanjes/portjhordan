@@ -2,16 +2,19 @@ import React from 'react';
 import { IoIosArrowRoundDown } from 'react-icons/io';
 
 import jhordan from '../../assets/jhor.jpg';
-import { Container, Content, Title } from './styles';
+import { Container, Content, Title, Box, Image, Text } from './styles';
 
 export default function About() {
   return (
     <Container id="q">
         <Content>
-            <div>
+            <Image>
                 <img src={jhordan} alt="Jhordan Jesse" />
-            </div>
-            <div>
+                <Box>
+                    240px
+                </Box>
+            </Image>
+            <Text>
                 <Title>
                     <b>&lt;</b> 
                     <span>S</span> 
@@ -25,15 +28,15 @@ export default function About() {
                     <b>&nbsp;/&gt;</b>
                 </Title>
                 <p>
-                    Me chamo <b>Jhordan Jessé</b>. Atualmente sou desenvolvedor fullstack, além de ser um cara apaixonado por React, React Native, Node.js.
+                    Me chamo <b>Jhordan Jessé</b>. Atualmente sou desenvolvedor fullstack, além de ser um cara apaixonado por React, React Native, Node.js<b>.</b>
                 </p>
                 <p>
-                    Sou formado em Ciência da Computação pela Uninorte - Am, mas esse não é a único curso que já fiz, busco sempre melhorar meu design e habilidades todos os dias.
+                    Sou formado em Ciência da Computação pela Uninorte - Am, mas esse não é a único curso que já fiz, busco sempre melhorar meu design e habilidades todos os dias<b>.</b>
                 </p>    
                 <p>
-                    Além disso, eu adoro trabalhar em equipe e sou um cara comunicativo, que adora conhecer novas tecnologias.
+                    Além disso, eu adoro trabalhar em equipe e sou um cara comunicativo, que adora conhecer novas tecnologias<b>.</b>
                 </p>
-            </div>      
+            </Text>      
         </Content>
 
         <div>

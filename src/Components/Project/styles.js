@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { word } from '../../util/keyframes';
+import { word, opacity } from '../../util/keyframes';
 
 export const Container = styled.div`
   box-shadow: 0px 0px 500px rgba(1,1,1,0.9);
@@ -7,10 +7,26 @@ export const Container = styled.div`
   width: 100%;
   margin-top: 45px;
   padding: 50px 170px;
-
+  
+  &::before{
+    content: 'Developer';
+    color: rgb(255,255,255,0.1);
+    font-size: 110px;
+    bottom: -40px;
+    letter-spacing: 5px;
+    left: -20px;
+    position: absolute;
+    z-index: -1;
+    animation: ${opacity} 2.9s linear;
+  }
 
   @media (max-width: 768px) {
     padding: 50px 25px;
+
+    &::before{
+      font-size: 70px;
+      bottom: -300px;
+    }
   }
 
   p{

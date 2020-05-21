@@ -103,3 +103,13 @@ export const word = keyframes`
         transform: scaleY(1.1);
     }
 `;
+
+export const opacity = keyframes`
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+`;
