@@ -30,7 +30,7 @@ export const Container = styled.div`
         height: 380px;
         top: 80px;
         left: -190px;
-        background: #141414;
+        background: rgb(1,1,1,0.4);
         box-shadow: 0px 0px 500px rgba(1,1,1,0.9);
         transform: rotate(45deg);
         z-index: -1;
@@ -44,7 +44,7 @@ export const Container = styled.div`
         top: 80px;
         animation: ${faderight} 0.9s linear;
         right: 0;
-        background: #141414;
+        background: rgb(1,1,1,0.4);
         box-shadow: 0px 0px 500px rgba(1,1,1,0.5);
         transform: skewY(-50deg);
         z-index: -1;
@@ -106,7 +106,7 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-    background: #212121;
+    background: rgba(1,1,1,0.7);
     padding: 50px 20px;
     margin-top: 70px;
     justify-items: center;

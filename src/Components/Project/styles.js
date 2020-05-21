@@ -3,7 +3,7 @@ import { word, opacity } from '../../util/keyframes';
 
 export const Container = styled.div`
   box-shadow: 0px 0px 500px rgba(1,1,1,0.9);
-  background: #141414;
+  background: rgb(1,1,1,0.7);
   width: 100%;
   margin-top: 45px;
   padding: 50px 170px;
