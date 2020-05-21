@@ -5,10 +5,24 @@ export const Container = styled.div`
     width: 100%;
     margin: 75px 0px;
     padding: 25px 170px 50px 170px;
-    
 
+    &::before{
+        content: 'Developer';
+        color: rgb(255,255,255,0.1);
+        font-size: 110px;
+        bottom: -30px;
+        left: 0;
+        position: absolute;
+        z-index: -1;
+    }
+    
     @media (max-width: 768px) {
         padding: 0px 25px 55px 25px;
+
+        &::before{
+            font-size: 70px;
+            bottom: -370px;
+        }
     }
 
     >div{
@@ -68,6 +82,7 @@ export const Content = styled.div`
 
         &:last-child{
             animation: ${faderight} 0.9s linear;
+
             @media (max-width: 768px) {
                 padding-top: 70px;
             }
