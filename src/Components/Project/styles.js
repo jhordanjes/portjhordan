@@ -7,12 +7,13 @@ export const Container = styled.div`
   width: 100%;
   margin-top: 45px;
   padding: 50px 170px;
+  position: relative;
   
   &::before{
     content: 'Developer';
-    color: rgb(1,1,1,0.1);
+    color: rgb(255,255,255,0.1);
     font-size: 110px;
-    bottom: -40px;
+    top: -100px;
     letter-spacing: 5px;
     left: -20px;
     position: absolute;
@@ -25,7 +26,7 @@ export const Container = styled.div`
 
     &::before{
       font-size: 70px;
-      bottom: -160px;
+      top: -60px;
     }
   }
 
