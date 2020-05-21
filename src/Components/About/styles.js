@@ -5,9 +5,46 @@ export const Container = styled.div`
     width: 100%;
     margin: 75px 0px;
     padding: 25px 170px 50px 170px;
+    position: relative;
+
+    &::before{
+        content: '';
+        width: 130px;
+        height: 130px;
+        position: absolute;
+        right: 70px;
+        bottom: -140px;
+        z-index: -1;
+        transform: rotate(45deg);
+        border: 1px solid #00c853;
+    }
+
+    &::after{
+        content: '';
+        width: 130px;
+        height: 130px;
+        position: absolute;
+        right: 70px;
+        bottom: -110px;
+        z-index: -1;
+        transform: rotate(45deg);
+        border: 1px solid rgba(255,255,255,0.2);
+    }
 
     @media (max-width: 768px) {
         padding: 0px 25px 55px 25px;
+
+        &::before{
+            right: 25px;
+            width: 100px;
+            height: 100px;
+        }
+
+        &::after{
+            right: 25px;
+            width: 100px;
+            height: 100px;
+        }
     }
 
     >div{

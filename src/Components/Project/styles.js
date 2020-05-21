@@ -25,7 +25,7 @@ export const Container = styled.div`
     padding: 50px 25px;
 
     &::before{
-      font-size: 70px;
+      font-size: 60px;
       top: -60px;
     }
   }
