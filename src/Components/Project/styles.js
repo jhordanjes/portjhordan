@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { word } from '../../util/keyframes';
 
 export const Container = styled.div`
   box-shadow: 0px 0px 500px rgba(1,1,1,0.9);
@@ -18,29 +19,38 @@ export const Container = styled.div`
 
 `;
 
-export const Span = styled.span`
-  font-size: 25px;
-  color: #fff;
-  font-weight: 600;
-  text-align: start;
-  letter-spacing: 2px;
-  transition: 0.4s;
-  position: relative;
+export const Title = styled.h1`
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+    text-align: start;
+    letter-spacing: 2px;
+    transition: 1.9s;
+    display: flex;
+    position: relative;
 
-  b{
-    color: #00c853;
-  }
+    b{
+        color: #00c853;
+    }
 
-  &::before{
-    content: '';
-    position: absolute;
-    width: 190px;
-    height: 15px;
-    left: 0px;
-    top: 10px;
-    background: rgba(255,255,255,0.1);
-    transform: skewY(-3deg);
-  }
+    span{
+        cursor: default;
+        &:hover{
+          color: #00c853;
+          animation: ${word} 0.8s;
+        }
+    }
+
+    &::before{
+        content: '';
+        position: absolute;
+        width: 190px;
+        height: 15px;
+        left: 0px;
+        top: 10px;
+        background: rgba(255,255,255,0.1);
+        transform: skewY(-3deg);
+    }    
 `;
 
 export const Projects = styled.div`

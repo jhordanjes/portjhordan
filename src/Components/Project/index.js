@@ -1,12 +1,23 @@
 import React from 'react';
 import gobarber from '../../assets/github.png';
 import aircnc from '../../assets/aircnc.png';
-import { Container, Projects, Span } from './styles';
+import { Container, Projects, Title } from './styles';
 
 export default function Project() {
   return (
     <Container id="p">
-        <Span><b>&lt;</b>Projetos<b> /&gt;</b></Span>
+        <Title>
+            <b>&lt;</b> 
+            <span>P</span> 
+            <span>r</span>
+            <span>o</span>
+            <span>j</span>
+            <span>e</span>
+            <span>t</span>
+            <span>o</span>
+            <span>s</span>
+            <b>&nbsp;/&gt;</b>
+        </Title>
         <p>
             Abaixo estão alguns projetos que fiz parte.
             Buscando um crescimento constantemente.

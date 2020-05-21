@@ -1,90 +1,5 @@
-import styled, { keyframes } from 'styled-components';
-
-const jump = keyframes`
-  0% {
-    transform: translateY(40%);
-  }
-  25% {
-    transform: translateY(100%);
-  }
-  50% {
-      transform: translateY(70%);
-  }
-  75% {
-      transform: translateY(100%);
-  }
-  100% {
-      transform: translateY(100%);
-  }
-`;
-
-const faderight = keyframes`
-    from {
-        transform: translateX(70px);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-`;
-
-const fadeleft = keyframes`
-    from {
-        transform: translateX(-70px);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-`;
-
-const boolone = keyframes`
-    0% {
-        width: 220px;
-        transform: skewX(0deg);
-    }
-    25% {
-        width: 230x;
-        transform: skewX(10deg);
-    }
-    50% {
-        width: 240px;
-        transform: skewX(25deg);
-    }
-    75%{
-        width: 230x;
-        transform: skewX(10deg);
-    }
-    100%{
-        width: 220px;
-        transform: skewX(0deg);
-    }
-`;
-
-const booltwo = keyframes`
-    0% {
-        width: 220px;
-        transform: skewX(-25deg);
-    }
-    25% {
-        width: 230px;
-        transform: skewX(-10deg);
-    }
-    50% {
-        width: 240px;
-        transform: skewX(0deg);
-    }
-    75%{
-        width: 230px;
-        transform: skewX(-10deg);
-    }
-    100%{
-        width: 220px;
-        transform: skewX(-25deg);
-    }
-`;
+import styled from 'styled-components';
+import { jump, faderight, fadeleft, gumone, gumtwo, word } from '../../util/keyframes';
 
 export const Container = styled.div`
     width: 100%;
@@ -120,33 +35,6 @@ export const Content = styled.div`
         margin: auto;
         text-align: start;
 
-        span{
-            font-size: 25px;
-            color: #fff;
-            font-weight: 600;
-            text-align: start;
-            letter-spacing: 2px;
-            transition: 1.9s;
-            position: relative;
-
-
-            b{
-                color: #00c853;
-            }
-
-            &::before{
-                content: '';
-                position: absolute;
-                width: 170px;
-                height: 15px;
-                left: 0px;
-                top: 10px;
-                background: rgba(255,255,255,0.1);
-                z-index: -1;
-                transform: skewY(-3deg);
-            }
-        }
-
         &:first-child{
             padding-right: 80px;
             animation: ${fadeleft} 0.9s linear;
@@ -155,7 +43,7 @@ export const Content = styled.div`
             &::before{
                 content: '';
                 position: absolute;
-                animation: ${boolone} 1.7s linear infinite;
+                animation: ${gumone} 1.7s linear infinite;
                 height: 230px;
                 border-radius: 50%;
                 left: 0px;
@@ -165,7 +53,7 @@ export const Content = styled.div`
             &::after{
                 content: '';
                 position: absolute;
-                animation: ${booltwo} 1.7s linear infinite;
+                animation: ${gumtwo} 1.7s linear infinite;
                 height: 230px;
                 left: 0px;    
                 border-radius: 50%;
@@ -203,4 +91,39 @@ export const Content = styled.div`
             color: #00c853;
         }
     }
+`;
+
+export const Title = styled.h1`
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+    text-align: start;
+    letter-spacing: 2px;
+    transition: 1.9s;
+    display: flex;
+    position: relative;
+
+    b{
+        color: #00c853;
+    }
+
+    span{
+        cursor: default;
+        &:hover{
+            color: #00c853;
+            animation: ${word} 0.7s;
+        }
+    }
+
+    &::before{
+        content: '';
+        position: absolute;
+        width: 220px;
+        height: 15px;
+        left: 0px;
+        top: 10px;
+        background: rgba(255,255,255,0.1);
+        z-index: -1;
+        transform: skewY(-3deg);
+    }    
 `;
