@@ -18,8 +18,8 @@ export default function Project() {
             <b>&nbsp;/&gt;</b>
         </Title>
         <p>
-            Abaixo estão alguns projetos recentes<b>.</b>
-            &nbsp;Buscando um crescimento constantemente<b>.</b>
+            Abaixo estão alguns projetos recentes.
+            Buscando um crescimento constantemente<b>.</b>
         </p>
         
         <Projects>

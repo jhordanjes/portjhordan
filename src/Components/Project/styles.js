@@ -21,17 +21,13 @@ export const Container = styled.div`
     animation: ${opacity} 2.9s linear;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 940px) {
     padding: 50px 25px;
 
     &::before{
       font-size: 60px;
       top: -60px;
     }
-  }
-
-  @media (max-width: 940px) {
-    padding: 50px;
   }
 
   p{
@@ -76,6 +72,10 @@ export const Title = styled.h1`
 export const Projects = styled.div`
   padding: 60px 50px;
   text-align: center;
+
+  @media (max-width: 768px) {
+    padding: 0px;
+  }
 
   @media (max-width: 940px) {
     padding: 60px 0px;
