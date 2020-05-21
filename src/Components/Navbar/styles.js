@@ -102,9 +102,9 @@ export const Content = styled.div`
           top: 8px;
           width: 100%;
           height: 3px;
-          background: rgba(0, 0, 0, 0.9);
+          background: rgb(22, 22, 27);
           box-sizing: inherit;
-          animation: ${deslize} 600ms ease forwards;
+          animation: ${deslize} 900ms ease forwards;
         }
       }
     }

@@ -113,3 +113,12 @@ export const opacity = keyframes`
         opacity: 1;
     }
 `;
+
+export const menu = keyframes`
+    0%{
+        height: 0px;
+    }
+    100%{
+        height: 3px;
+    }
+`;
