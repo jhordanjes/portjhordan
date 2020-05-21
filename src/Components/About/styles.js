@@ -90,6 +90,7 @@ export const Container = styled.div`
     width: 100%;
     margin: 75px 0px;
     padding: 25px 170px 50px 170px;
+    
 
     @media (max-width: 768px) {
         padding: 0px 25px 55px 25px;
@@ -100,12 +101,10 @@ export const Container = styled.div`
     }
 
     svg{
-        margin-top: 10px;
+        color: rgb(255,255,255,0.9);
+        margin-top: 45px;
         animation: ${jump} 1.7s linear infinite;
-
-        @media (max-width: 768px) {
-            margin-top: -20px;
-        }
+        transform: rotate(70deg);
     }
 `;
 
@@ -127,8 +126,9 @@ export const Content = styled.div`
             font-weight: 600;
             text-align: start;
             letter-spacing: 2px;
-            transition: 0.4s;
+            transition: 1.9s;
             position: relative;
+
 
             b{
                 color: #00c853;
@@ -203,12 +203,4 @@ export const Content = styled.div`
             color: #00c853;
         }
     }
-`;
-
-export const Cloud = styled.div`
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    bottom: 150px;
-    z-index: -1;
 `;

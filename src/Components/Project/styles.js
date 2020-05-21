@@ -27,10 +27,14 @@ export const Span = styled.span`
   transition: 0.4s;
   position: relative;
 
+  b{
+    color: #00c853;
+  }
+
   &::before{
     content: '';
     position: absolute;
-    width: 170px;
+    width: 190px;
     height: 15px;
     left: 0px;
     top: 10px;

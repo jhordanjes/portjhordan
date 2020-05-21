@@ -1,5 +1,4 @@
 import React from 'react';
-import { DiCode } from 'react-icons/di';
 import gobarber from '../../assets/github.png';
 import aircnc from '../../assets/aircnc.png';
 import { Container, Projects, Span } from './styles';
@@ -7,7 +6,7 @@ import { Container, Projects, Span } from './styles';
 export default function Project() {
   return (
     <Container id="p">
-        <Span>Projetos <DiCode color="#00c853" /></Span>
+        <Span><b>&lt;</b>Projetos<b> /&gt;</b></Span>
         <p>
             Abaixo estão alguns projetos que fiz parte.
             Buscando um crescimento constantemente.
