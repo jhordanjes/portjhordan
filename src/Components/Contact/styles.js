@@ -30,8 +30,8 @@ export const Container = styled.div`
         height: 380px;
         top: 80px;
         left: -190px;
-        background: rgb(1,1,1,0.4);
-        box-shadow: 0px 0px 500px rgba(1,1,1,0.9);
+        background: rgb(1,1,1,0.2);
+        box-shadow: 0px 0px 500px rgba(1,1,1,0.8);
         transform: rotate(45deg);
         z-index: -1;
     }
@@ -44,8 +44,8 @@ export const Container = styled.div`
         top: 80px;
         animation: ${faderight} 0.9s linear;
         right: 0;
-        background: rgb(1,1,1,0.4);
-        box-shadow: 0px 0px 500px rgba(1,1,1,0.5);
+        background: rgb(1,1,1,0.2);
+        
         transform: skewY(-50deg);
         z-index: -1;
     }
