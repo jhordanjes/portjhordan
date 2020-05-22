@@ -32,7 +32,7 @@ export default function Navbar() {
         </aside>
 
         <button type="button" onClick={openMenu}>
-          <FiMenu size={30} color="#00c853" />
+          <FiMenu size={30} color="rgba(38,225,175)" />
         </button>
     
       </Content>
