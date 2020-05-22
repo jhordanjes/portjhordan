@@ -107,12 +107,13 @@ export const Content = styled.div`
 `;
 
 export const Logo = styled.div`
-  font-size: 22px;
-  font-weight: 500;
-  color: rgba(255,255,255,0.9);
+  font-size: 17px;
+  font-weight: bold;
+  color: rgba(255,255,255);
   transition: 0.1s;
   display: inline-block;
   transition: 0.5s;
+  text-transform: uppercase;
 
   &:hover{
     letter-spacing: 2px;

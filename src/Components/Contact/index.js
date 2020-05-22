@@ -1,12 +1,12 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom';
-import { Container, Social, Content } from './styles';
+import { Container, Social, Content, Message } from './styles';
 
 export default function Contact() {
   return (
     <Container id="c">
-            <aside>
+            <Message>
               <Fade left>
                 <span>Você está</span>
                 <span>precisando de</span>
@@ -17,7 +17,7 @@ export default function Contact() {
               <p>
                 Vou adorar poder te ajudar ;)
               </p>
-            </aside>
+            </Message>
             
             <Content>
               <Social>

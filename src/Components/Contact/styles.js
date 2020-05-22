@@ -51,57 +51,64 @@ export const Container = styled.div`
     }
 
     @media (max-width: 940px) {
-        padding: 50px 10px;    
+        padding: 50px 10px;
+
+        &::before{
+            display: none;
+        }    
     }
 
-    aside{
-        padding-left: 70px;
+`;
+
+export const Message = styled.div`
+    padding-left: 70px;
+    
+    @media (max-width: 768px) {
+        padding-left: 20px;
+        padding-top: 30px;       
+    }
+ 
+    >p{
+        margin-top: 7px;
+    }
+
+    span{
+        display: flex;
+        font-size: 70px;
+        font-weight: bold;
+        color: rgba(38,225,175);
+
         @media (max-width: 768px) {
-            padding-left: 20px;        
+            font-size: 40px;       
         }
-        >p{
-            margin-top: 7px;
-        }
+    }
 
-        span{
-            display: flex;
-            font-size: 70px;
-            font-weight: bold;
-            color: rgba(38,225,175);
+    a{
+        color: rgba(38,225,175);
+        font-size: 70px;
+        font-weight: bold;
+        overflow: hidden;
+        position: relative;
+        display: inline-block;
+        padding-top: 10px;
 
-            @media (max-width: 768px) {
-                font-size: 40px;       
+        &:hover{
+            color: #fff;
+            &::before{
+                content: '';
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                height: 5px;
+                background: rgba(38,225,175);
+                animation: ${upAnimate} 600ms ease forwards;
             }
         }
 
-        a{
-            color: rgba(38,225,175);
-            font-size: 70px;
-            font-weight: bold;
-            overflow: hidden;
-            position: relative;
-            display: inline-block;
-            padding-top: 10px;
-
-            &:hover{
-                color: #fff;
-                &::before{
-                    content: '';
-                    position: absolute;
-                    bottom: 0;
-                    width: 100%;
-                    height: 5px;
-                    background: rgba(38,225,175);
-                    animation: ${upAnimate} 600ms ease forwards;
-                }
-            }
-
-            @media (max-width: 768px) {
-                font-size: 40px;        
-            }
+     
+        @media (max-width: 768px) {
+            font-size: 40px;        
         }
-
-            
     }
 `;
 
