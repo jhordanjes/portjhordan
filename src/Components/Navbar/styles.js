@@ -107,23 +107,39 @@ export const Content = styled.div`
 `;
 
 export const Logo = styled.div`
-  font-size: 17px;
+  font-size: 18px;
   font-weight: bold;
   color: rgba(255,255,255);
   transition: 0.1s;
   display: inline-block;
   transition: 0.5s;
   text-transform: uppercase;
+  position: relative;
+
+  &::before{
+    content: '';
+    position: absolute;
+    width: 117px;
+    height: 8px;
+    left: -5px;
+    top: 6px;
+    background: rgba(255,255,255,0.1);
+    z-index: -1;
+    transform: skewY(6deg);
+  }
+
+  @media (max-width: 768px) {
+    font-size: 15;
+  }
 
   &:hover{
     letter-spacing: 2px;
     color: rgba(38,225,175);
   }
 
-  span{
-    background: rgba(38,225,175);
-    color: rgba(30,30,30);
-    margin-left: -5px;
+  b{
+    color: rgba(38,225,175);
+    margin-left: -8px;
     display: inline-block;
     padding: 0px 5px;
   }

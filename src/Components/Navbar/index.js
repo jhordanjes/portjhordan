@@ -15,7 +15,7 @@ export default function Navbar() {
       <Content>
         <Link to="/">
           <Logo>
-            Jhor <span>dan_</span>
+            Jhor <b>dan_</b>
           </Logo>
         </Link>
         
