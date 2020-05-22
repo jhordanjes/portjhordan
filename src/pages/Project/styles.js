@@ -74,7 +74,7 @@ export const Container = styled.div`
   }
 
   @media (max-width: 940px) {
-    padding: 50px 25px;
+    padding: 50px 0px;
 
     &::before{
         font-size: 60px;
@@ -116,7 +116,6 @@ export const Title = styled.h1`
 
 export const Banner = styled.div`
   text-align: center;
-
   p{
     
 

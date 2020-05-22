@@ -39,6 +39,7 @@ function Project() {
                 autoPlay={true}
                 autoPlayInterval={2500}
                 buttonsDisabled={true}
+           
             >
                 <div className="item"> <img src={aircnc} alt=""/> </div>
                 <div className="item"> <img src={gobarber} alt=""/> </div>
