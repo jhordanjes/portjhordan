@@ -35,7 +35,7 @@ export const Container = styled.div`
   }
 
   b{
-    color: #00c853;
+    color: rgba(38,225,175);
   }
 `;
 
@@ -52,7 +52,7 @@ export const Title = styled.h1`
     span{
         cursor: default;
         &:hover{
-          color: #00c853;
+          color: rgba(38,225,175);
           animation: ${word} 0.8s;
         }
     }
@@ -121,7 +121,7 @@ export const Projects = styled.div`
 
   ul li:hover span{
     letter-spacing: 1px;
-    color: #00c853;
+    color: rgba(38,225,175);
   }
 `;
 

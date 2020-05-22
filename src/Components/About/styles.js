@@ -16,7 +16,7 @@ export const Container = styled.div`
         bottom: -140px;
         z-index: -1;
         transform: rotate(45deg);
-        border: 1px solid #00c853;
+        border: 1px solid rgba(38,225,175);
     }
 
     &::after{
@@ -116,7 +116,7 @@ export const Text = styled.div`
         margin-top: 20px;
         color: rgba(255,255,255,0.5);
         b{
-            color: #00c853;
+            color: rgba(38,225,175);
         }
     }
 
@@ -150,13 +150,13 @@ export const Title = styled.h1`
     position: relative;
 
     b{
-        color: #00c853;
+        color: rgba(38,225,175);
     }
 
     span{
         cursor: default;
         &:hover{
-            color: #00c853;
+            color: rgba(38,225,175);
             animation: ${word} 0.7s;
         }
     }

@@ -67,7 +67,7 @@ export const Container = styled.div`
             display: flex;
             font-size: 70px;
             font-weight: bold;
-            color: #00c853;
+            color: rgba(38,225,175);
 
             @media (max-width: 768px) {
                 font-size: 40px;       
@@ -75,7 +75,7 @@ export const Container = styled.div`
         }
 
         a{
-            color: #00c853;
+            color: rgba(38,225,175);
             font-size: 70px;
             font-weight: bold;
             overflow: hidden;
@@ -91,7 +91,7 @@ export const Container = styled.div`
                     bottom: 0;
                     width: 100%;
                     height: 5px;
-                    background: #00c853;
+                    background: rgba(38,225,175);
                     animation: ${upAnimate} 600ms ease forwards;
                 }
             }
@@ -162,7 +162,7 @@ export const Social = styled.ul`
                     bottom: 0;
                     width: 100%;
                     height: 2px;
-                    background: #00c853;
+                    background: rgba(38,225,175);
                     animation: ${upAnimate} 600ms ease forwards;
                 }
             }

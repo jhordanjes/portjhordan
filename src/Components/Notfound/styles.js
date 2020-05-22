@@ -32,7 +32,7 @@ export const Container = styled.div`
 `;
 
 export const First = styled.div`
-    background: #00c851;
+    background: rgba(38,225,175);
     height: 100vh;
     width: 50%;
     display: flex;

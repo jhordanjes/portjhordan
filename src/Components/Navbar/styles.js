@@ -116,11 +116,11 @@ export const Logo = styled.div`
 
   &:hover{
     letter-spacing: 2px;
-    color: #00c853;
+    color: rgba(38,225,175);
   }
 
   span{
-    background: #00c853;
+    background: rgba(38,225,175);
     color: rgba(30,30,30);
     margin-left: -5px;
     display: inline-block;
