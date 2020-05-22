@@ -1,11 +1,15 @@
 import styled from 'styled-components';
-import { jump, faderight, fadeleft, gumone, gumtwo, word } from '../../styles/keyframes';
+import { jump, faderight, fadeleft, gumone, gumtwo } from '../../styles/keyframes';
 
 export const Container = styled.div`
     width: 100%;
     margin: 75px 0px;
     padding: 25px 170px 50px 170px;
     position: relative;
+
+    b{
+        color: rgba(38,225,175);
+    }
 
     &::before{
         content: '';
@@ -138,42 +142,7 @@ export const Content = styled.div`
         text-align: start;
     }
 `;
-
-export const Title = styled.h1`
-    font-size: 25px;
-    color: #fff;
-    font-weight: 600;
-    text-align: start;
-    letter-spacing: 2px;
-    transition: 1.9s;
-    display: flex;
-    position: relative;
-
-    b{
-        color: rgba(38,225,175);
-    }
-
-    span{
-        cursor: default;
-        &:hover{
-            color: rgba(38,225,175);
-            animation: ${word} 0.7s;
-        }
-    }
-
-    &::before{
-        content: '';
-        position: absolute;
-        width: 220px;
-        height: 15px;
-        left: 0px;
-        top: 10px;
-        background: rgba(255,255,255,0.1);
-        z-index: -1;
-        transform: skewY(-3deg);
-    }    
-`;
-
+ 
 export const Box = styled.div`
     border-top: 1px solid rgba(255,255,255,0.1);
     border-bottom: 1px solid rgba(255,255,255,0.1);

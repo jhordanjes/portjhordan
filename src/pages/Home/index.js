@@ -11,7 +11,7 @@ export default function Home(){
         <>
             <Navbar />
             <About />
-            <Container>
+            <Container id="p">
                 <Title>
                     <b>&lt;</b> 
                     <span>P</span> 

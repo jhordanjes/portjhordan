@@ -15,7 +15,7 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.h1`
-  font-size: 25px;
+    font-size: 25px;
     color: #fff;
     font-weight: 600;
     text-align: start;
@@ -24,22 +24,27 @@ export const Title = styled.h1`
     display: flex;
     position: relative;
 
+    b{
+        color: rgba(38,225,175);
+    }
+
     span{
         cursor: default;
         &:hover{
-          color: rgba(38,225,175);
-          animation: ${word} 0.8s;
+            color: rgba(38,225,175);
+            animation: ${word} 0.7s;
         }
     }
 
     &::before{
         content: '';
         position: absolute;
-        width: 190px;
+        width: 220px;
         height: 15px;
         left: 0px;
         top: 10px;
         background: rgba(255,255,255,0.1);
+        z-index: -1;
         transform: skewY(-3deg);
-    }
+    }    
 `;

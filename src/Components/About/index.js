@@ -41,7 +41,9 @@ export default function About() {
         </Content>
 
         <div>
+            <a href="#p">
             <IoIosArrowRoundDown size={55} />
+            </a>
         </div>
     </Container>
   );

@@ -7,7 +7,7 @@ export default function Project() {
   return (
         <Projects>
             <ul>
-                <Link to="/projects">
+                <Link to="/project">
                     <li>             
                         <img src={aircnc} alt="projeto" />
                         <Description>
@@ -25,20 +25,24 @@ export default function Project() {
                         </Description>
                     </li>
                 </Link>
-                <li>
-                    <img src={aircnc} alt="projeto" />
-                    <Description>
-                        <span>Rocketshoes<b>_</b></span>
-                        <p>Uma aplicação para prestadores de serviço</p>
-                    </Description>
-                </li>
-                <li>
-                    <img src={aircnc} alt="projeto" />
-                    <Description>
-                        <span>Github Repositories<b>_</b></span>
-                        <p>Uma aplicação para prestadores de serviço</p>
-                    </Description>
-                </li>
+                <Link to="/project">
+                    <li>
+                        <img src={aircnc} alt="projeto" />
+                        <Description>
+                            <span>Rocketshoes<b>_</b></span>
+                            <p>Uma aplicação para prestadores de serviço</p>
+                        </Description>
+                    </li>
+                </Link>
+                <Link to="/project">
+                    <li>
+                        <img src={aircnc} alt="projeto" />
+                        <Description>
+                            <span>Github Repositories<b>_</b></span>
+                            <p>Uma aplicação para prestadores de serviço</p>
+                        </Description>
+                    </li>
+                </Link>
             </ul>
         </Projects>
   );
