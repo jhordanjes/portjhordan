@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { up, deslize } from '../../util/keyframes';
+import { up, deslize } from '../../styles/keyframes';
 
 export const Container = styled.div`
   padding: 0 170px;

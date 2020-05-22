@@ -20,12 +20,12 @@ export default function Navbar() {
         </Link>
         
         <aside>
-            <a href="#q">
-              Quem sou
-            </a>
-            <a href="#p">
+            <Link to="/">
+              Home
+            </Link>
+            <Link to="/projects">
               Projetos
-            </a>
+            </Link>
             <a href="#c">
               Contato
             </a>

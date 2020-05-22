@@ -1,28 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import aircnc from '../../assets/aircnc.png';
-import { Container, Projects, Title, Description } from './styles';
+import { Projects, Description } from './styles';
 
 export default function Project() {
   return (
-    <Container id="p">
-        <Title>
-            <b>&lt;</b> 
-            <span>P</span> 
-            <span>r</span>
-            <span>o</span>
-            <span>j</span>
-            <span>e</span>
-            <span>t</span>
-            <span>o</span>
-            <span>s</span>
-            <b>&nbsp;/&gt;</b>
-        </Title>
-        <p>
-            Abaixo estão alguns projetos recentes.
-            Buscando um crescimento constantemente<b>.</b>
-        </p>
-        
         <Projects>
             <ul>
                 <Link to="/projects">
@@ -59,6 +41,5 @@ export default function Project() {
                 </li>
             </ul>
         </Projects>
-    </Container>
   );
 }

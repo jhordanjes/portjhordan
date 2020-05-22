@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { jump, faderight, fadeleft, gumone, gumtwo, word } from '../../util/keyframes';
+import { jump, faderight, fadeleft, gumone, gumtwo, word } from '../../styles/keyframes';
 
 export const Container = styled.div`
     width: 100%;
