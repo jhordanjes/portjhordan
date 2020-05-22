@@ -4,6 +4,7 @@ import { word } from '../../util/keyframes';
 export const Description = styled.div`
     width: 100%;
     padding: 90px 170px;
+    position: relative;
 
     p{
         margin-top: 20px;
@@ -19,7 +20,7 @@ export const Description = styled.div`
         height: 130px;
         position: absolute;
         right: 70px;
-        bottom: 220px;
+        bottom: -70px;
         z-index: -1;
         transform: rotate(45deg);
         border: 1px solid rgba(38,225,175);
@@ -31,7 +32,7 @@ export const Description = styled.div`
         height: 130px;
         position: absolute;
         right: 70px;
-        bottom: 240px;
+        bottom: -50px;
         z-index: -1;
         transform: rotate(45deg);
         border: 1px solid rgba(255,255,255,0.2);
@@ -43,14 +44,12 @@ export const Description = styled.div`
         &::before{
             right: 25px;
             width: 100px;
-            bottom: 190px;
             height: 100px;
         }
 
         &::after{
             right: 25px;
             width: 100px;
-            bottom: 210px;
             height: 100px;
         }
     }

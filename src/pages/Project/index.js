@@ -36,7 +36,6 @@ function Project() {
             <AliceCarousel   
                 fadeOutAnimation={true}
                 mouseDragEnabled={true}
-
                 autoPlay={true}
                 autoPlayInterval={2500}
                 buttonsDisabled={true}
