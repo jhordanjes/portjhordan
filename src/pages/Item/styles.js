@@ -53,7 +53,7 @@ export const Content = styled.div`
   position: relative;
 
   &::before{
-    content: 'Projetos';
+    content: 'Gobarber';
     color: rgb(255,255,255,0.1);
     font-size: 90px;
     top: -75px;

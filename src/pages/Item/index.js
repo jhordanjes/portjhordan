@@ -28,8 +28,8 @@ function Project() {
                 <b>&nbsp;/&gt;</b>
             </Title>
             <p>
-                Gerenciar agendamentos de um salão de beleza na mão pode demandar várias horas do barbeiro ou cabeleireira, por exemplo<b>.&nbsp;</b> 
-                Carentes de tecnologia, esses negócios podem despender várias horas diariamente apenas recebendo ligações e trocando mensagens com clientes sobre seus agendamentos, cancelamentos, pagamentos e etc<b>.</b>
+                Gobarber é uma aplicação para prestadores de serviços de um salão de beleza, tanto para barbeiros como cabeleireira<b>.&nbsp;</b> 
+                Podendo agilizar o processo de agendamentos, cancelamentos, pagamentos, etc. Sem muita complicação<b>.</b>
             </p>
         </Header>
       

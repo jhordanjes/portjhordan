@@ -19,7 +19,7 @@ export default createGlobalStyle`
 
   body::-webkit-scrollbar {
     width: 0.5em;
-    background: rgb(11, 10, 13);
+    background: rgb(22, 22, 27);
   }
   
   body::-webkit-scrollbar-track {
