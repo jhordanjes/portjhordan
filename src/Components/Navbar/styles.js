@@ -107,40 +107,34 @@ export const Content = styled.div`
 `;
 
 export const Logo = styled.div`
-  font-size: 18px;
-  font-weight: bold;
-  color: rgba(255,255,255);
-  transition: 0.1s;
-  display: inline-block;
-  transition: 0.5s;
-  text-transform: uppercase;
-  position: relative;
+  justify-items: center;
 
-  &::before{
-    content: '';
-    position: absolute;
-    width: 117px;
-    height: 8px;
-    left: -5px;
-    top: 6px;
-    background: rgba(255,255,255,0.1);
-    z-index: -1;
-    transform: skewY(6deg);
+  span{
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+    color: rgba(255,255,255);
+    font-size: 17px;
+    position: relative;
+    font-weight: bold;
+    letter-spacing: 1px;
+    bottom: 20px;
+    justify-items: center;
+  }
+
+  img{
+    height: 50px;
+    width: 50px;
   }
 
   @media (max-width: 768px) {
-    font-size: 15;
-  }
+    span{
+      font-size: 16px;
+      bottom: 15px;
+    }
 
-  &:hover{
-    letter-spacing: 2px;
-    color: rgba(38,225,175);
-  }
-
-  b{
-    color: rgba(38,225,175);
-    margin-left: -8px;
-    display: inline-block;
-    padding: 0px 5px;
+    img{
+      height: 40px;
+      width: 40px;
+    }
   }
 `;

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FiMenu } from 'react-icons/fi';
 import { Container, Logo, Content} from './styles';
+import sera from '../../assets/logo.png';
 
 export default function Navbar() {
   const [menu, setMenu ] = useState(false);
@@ -15,7 +16,8 @@ export default function Navbar() {
       <Content>
         <Link to="/">
           <Logo>
-            Jhor <b>dan_</b>
+            <img src={sera} alt=""/>
+            <span>Jhordan</span>
           </Logo>
         </Link>
         
