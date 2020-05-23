@@ -46,10 +46,11 @@ export const Projects = styled.div`
 `;
 
 export const Description = styled.div`
-  margin-top: 15px;
+  margin-top: 5px;
+  margin-bottom: 20px;
   p{
     position: relative;
-    bottom: 10px;
+    bottom: 18px;
     color: rgba(255,255,255,0.4);
   }
 
