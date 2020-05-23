@@ -6,8 +6,11 @@ import Navbar from '../../Components/Navbar';
 import Contact from '../../Components/Contact';
 import { Content, Header } from './styles';
 import { Container, Title } from '../../styles';
-import aircnc from '../../assets/aircnc.png';
-import gobarber from '../../assets/gobarber.png';
+import gobarber from '../../assets/gobarberNew.png';
+import gobarberRegister from '../../assets/gobarberRegister.png';
+import gobarberProfile from '../../assets/gobarberProfile.png';
+import gobarberDash from '../../assets/gobarberDash.png';
+
 
 function Project() {
   return (
@@ -41,10 +44,10 @@ function Project() {
                 autoPlayInterval={2500}
                 buttonsDisabled={true}
             >
-                <div className="item"> <img src={aircnc} alt=""/> </div>
                 <div className="item"> <img src={gobarber} alt=""/> </div>
-                <div className="item"> <img src={aircnc} alt=""/> </div>
-                <div className="item"> <img src={gobarber} alt=""/> </div>
+                <div className="item"> <img src={gobarberRegister} alt=""/> </div>
+                <div className="item"> <img src={gobarberDash} alt=""/> </div>
+                <div className="item"> <img src={gobarberProfile} alt=""/> </div>
             </AliceCarousel>
             <p>Acompanhe no <a href="https://github.com/jhordanjes">github</a></p>
         </Content>

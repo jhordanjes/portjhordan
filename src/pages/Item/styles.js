@@ -49,7 +49,7 @@ export const Content = styled.div`
   box-shadow: 0px 0px 500px rgba(1,1,1,0.9);
   background: rgb(1,1,1,0.7);
   width: 100%;
-  padding: 0px 170px 25px 170px;
+  padding: 30px 170px;
   position: relative;
 
   &::before{
@@ -94,7 +94,7 @@ export const Content = styled.div`
         width: 100%;
     }
     .alice-carousel__dots{
-        bottom: 30px;
+        bottom: 10px;
         position: relative;
     }
     .alice-carousel__dots li{

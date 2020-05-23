@@ -1,15 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import gobarber from '../../assets/gobarberNew.png';
+import github from '../../assets/github.png';
 import aircnc from '../../assets/aircnc.png';
 import { Projects, Description } from './styles';
-
+ 
 export default function Project() {
   return (
         <Projects>
             <ul>
                 <Link to="/project">
                     <li>             
-                        <img src={aircnc} alt="projeto" />
+                        <img src={gobarber} alt="projeto" />
                         <Description>
                             <span>Gobarber<b>_</b></span>
                             <p>Uma aplicação para prestadores de serviço</p>
@@ -27,16 +29,16 @@ export default function Project() {
                 </Link>
                 <Link to="/project">
                     <li>
-                        <img src={aircnc} alt="projeto" />
+                        <img src={gobarber} alt="projeto" />
                         <Description>
-                            <span>Rocketshoes<b>_</b></span>
+                            <span>Gibarber<b>_</b></span>
                             <p>Uma aplicação para prestadores de serviço</p>
                         </Description>
                     </li>
                 </Link>
                 <Link to="/project">
                     <li>
-                        <img src={aircnc} alt="projeto" />
+                        <img src={github} alt="projeto" />
                         <Description>
                             <span>Github Repositories<b>_</b></span>
                             <p>Uma aplicação para prestadores de serviço</p>

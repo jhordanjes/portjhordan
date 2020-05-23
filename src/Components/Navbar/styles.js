@@ -115,6 +115,7 @@ export const Logo = styled.div`
     color: rgba(255,255,255);
     font-size: 17px;
     position: relative;
+    left: 5px;
     font-weight: bold;
     letter-spacing: 1px;
     bottom: 20px;
@@ -124,6 +125,7 @@ export const Logo = styled.div`
   img{
     height: 50px;
     width: 50px;
+    opacity: 0.8;
   }
 
   @media (max-width: 768px) {
