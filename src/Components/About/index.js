@@ -29,7 +29,7 @@ export default function About() {
                     <b>&nbsp;/&gt;</b>
                 </Title>
                 <p>
-                    Hello world<b>,&nbsp;</b>me chamo <b>Jhordan Jessé</b>. Atualmente sou desenvolvedor fullstack, além de ser um cara apaixonado por React, React Native, Node.js<b>.</b>
+                    Hello world, me chamo <b>Jhordan Jessé</b>, atualmente sou desenvolvedor fullstack, além de ser um cara apaixonado por React, React Native, Node.js<b>.</b>
                 </p>
                 <p>
                     Sou formado em Ciência da Computação pela Uninorte - Am, mas esse não é o único curso que já fiz, como exemplo posso citar: GoStack da Rocketseat e muitos outros cursos online. 

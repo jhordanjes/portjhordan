@@ -24,14 +24,15 @@ export const Projects = styled.div`
   ul li img{
     width: 450px;
     transition: 0.4s;
-    height: 100%;
+    height: 240px;
 
     @media (max-width: 940px) {
       width: 90%;
     }
     
     &:hover{
-      width: 440px;
+      width: 460px;
+      height: 250px;
 
       @media (max-width: 940px) {
         width: 95%;

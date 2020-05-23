@@ -31,7 +31,7 @@ function Project() {
                 <b>&nbsp;/&gt;</b>
             </Title>
             <p>
-                Gobarber é uma aplicação para prestadores de serviços de um salão de beleza, tanto para barbeiros como cabeleireira<b>.&nbsp;</b> 
+                Gobarber é uma aplicação para prestadores de serviços de um salão de beleza, tanto para barbeiros como cabeleireiros<b>.&nbsp;</b> 
                 Podendo agilizar o processo de agendamentos, cancelamentos, pagamentos, etc. Sem muita complicação<b>.</b>
             </p>
         </Header>
