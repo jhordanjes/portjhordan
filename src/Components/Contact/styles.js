@@ -104,7 +104,6 @@ export const Message = styled.div`
                 animation: ${upAnimate} 600ms ease forwards;
             }
         }
-
      
         @media (max-width: 768px) {
             font-size: 40px;        

@@ -31,7 +31,7 @@ export default function Project() {
                     <li>
                         <img src={gobarber} alt="projeto" />
                         <Description>
-                            <span>Gibarber<b>_</b></span>
+                            <span>Gobarber<b>_</b></span>
                             <p>Uma aplicação para prestadores de serviço</p>
                         </Description>
                     </li>

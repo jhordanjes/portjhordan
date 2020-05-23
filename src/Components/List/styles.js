@@ -1,15 +1,11 @@
 import styled from 'styled-components';
 
 export const Projects = styled.div`
-  padding: 60px 50px;
+  padding: 60px 0px;
   text-align: center;
 
-  @media (max-width: 768px) {
-    padding: 0px;
-  }
-
   @media (max-width: 940px) {
-    padding: 60px 0px;
+    padding: 30px 0px;
   }
 
 
@@ -28,24 +24,17 @@ export const Projects = styled.div`
   ul li img{
     width: 450px;
     transition: 0.4s;
-
-    @media (max-width: 768px) {
-      width: 90%;
-    }
+    height: 100%;
 
     @media (max-width: 940px) {
-      width: 350px;
+      width: 90%;
     }
     
     &:hover{
       width: 440px;
 
-      @media (max-width: 768px) {
-        width: 100%;
-      }
-
       @media (max-width: 940px) {
-        width: 360px;
+        width: 95%;
       }
     }
   }
@@ -57,6 +46,7 @@ export const Projects = styled.div`
 `;
 
 export const Description = styled.div`
+  margin-top: 15px;
   p{
     position: relative;
     bottom: 10px;
