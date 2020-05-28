@@ -1,6 +1,5 @@
 import React from 'react';
 import { IoIosArrowRoundDown } from 'react-icons/io';
-
 import jhordan from '../../assets/jhor.jpg';
 import { Title } from '../../styles';
 import { Container, Content, Box, Image, Text } from './styles';

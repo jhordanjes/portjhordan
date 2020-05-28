@@ -20,7 +20,7 @@ export const Container = styled.div`
         bottom: -140px;
         z-index: -1;
         transform: rotate(45deg);
-        border: 1px solid rgba(38,225,175);
+        border: 1px solid rgba(38,225,175,0.8);
     }
 
     &::after{
@@ -156,3 +156,4 @@ export const Box = styled.div`
     position: relative;
     top: 15px;
 `;
+

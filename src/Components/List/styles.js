@@ -30,8 +30,7 @@ export const Projects = styled.div`
     }
     
     &:hover{
-      width: 460px;
-      height: 250px;
+      width: 95%;
 
       @media (max-width: 940px) {
         width: 95%;

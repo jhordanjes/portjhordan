@@ -13,7 +13,7 @@ export const Header = styled.div`
     bottom: -70px;
     z-index: -1;
     transform: rotate(45deg);
-    border: 1px solid rgba(38,225,175);
+    border: 1px solid rgba(38,225,175,0.8);
   }
 
   &::after{
@@ -22,7 +22,7 @@ export const Header = styled.div`
     height: 130px;
     position: absolute;
     right: 70px;
-    bottom: -50px;
+    bottom: -40px;
     z-index: -1;
     transform: rotate(45deg);
     border: 1px solid rgba(255,255,255,0.2);
@@ -77,10 +77,10 @@ export const Content = styled.div`
     
       a{
           background: rgba(38,225,175);
-          border-bottom: 3px solid rgba(255,255,255,0.9);
+          border-bottom: 3px solid #138868;
           border-radius: 4px;
           color: rgba(1,1,1,0.8);
-          padding: 10px;
+          padding: 8px;
           font-size: 15px;
           font-weight: bold;
           text-transform: uppercase;
