@@ -13,7 +13,7 @@ export const Header = styled.div`
     bottom: -70px;
     z-index: -1;
     transform: rotate(45deg);
-    border: 1px solid rgba(38,225,175,0.8);
+    border: 1px solid rgba(38,225,175,0.5);
   }
 
   &::after{
@@ -47,7 +47,7 @@ export const Header = styled.div`
 
 export const Content = styled.div`
   box-shadow: 0px 0px 500px rgba(1,1,1,0.9);
-  background: rgb(1,1,1,0.7);
+  background: rgb(1,1,1,0.6);
   width: 100%;
   padding: 30px 170px;
   position: relative;
