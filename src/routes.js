@@ -13,7 +13,6 @@ export default function Routes() {
             <Route path="/project" component={Item} />
             <Route path="/projects" component={Projects} />
             <Route path="/" component={NotFound} />
-            <Route path="/notfound" component={NotFound} />
         </Switch>
     )
 }
