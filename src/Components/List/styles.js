@@ -24,6 +24,7 @@ export const Projects = styled.div`
   ul li img{
     width: 450px;
     transition: 0.4s;
+    box-shadow: 0px 0px 60px rgba(1,1,1,0.1);
 
     @media (max-width: 940px) {
       width: 90%;
