@@ -1,2 +1,4 @@
-/en/* /en/notfound 404
-/de/* /de/notfound 404
+[[redirects]]
+  from = "/*"
+  to = "/notfound"
+  status = 404
