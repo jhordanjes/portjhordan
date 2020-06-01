@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
 import gobarber from '../../assets/gobarberNew.png';
 import github from '../../assets/github.png';
 import aircnc from '../../assets/aircnc.png';
@@ -42,6 +43,24 @@ export default function Project() {
                         <Description>
                             <span>Github Repositories<b>_</b></span>
                             <p>Uma aplicação para prestadores de serviço</p>
+                        </Description>
+                    </li>
+                </Link>
+                <Link to="/project">
+                    <li>
+                        <img src={aircnc} alt="projeto" />
+                        <Description>
+                            <span>AirCnc<b>_</b></span>
+                            <p>Semana Omnistack 9, disponibilizar espaço para dev.</p>
+                        </Description>
+                    </li>
+                </Link>
+                <Link to="/project">
+                    <li>
+                        <img src={aircnc} alt="projeto" />
+                        <Description>
+                            <span>AirCnc<b>_</b></span>
+                            <p>Semana Omnistack 9, disponibilizar espaço para dev.</p>
                         </Description>
                     </li>
                 </Link>

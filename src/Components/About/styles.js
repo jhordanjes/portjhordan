@@ -17,7 +17,7 @@ export const Container = styled.div`
         height: 130px;
         position: absolute;
         right: 70px;
-        bottom: -140px;
+        bottom: -155px;
         z-index: -1;
         transform: rotate(45deg);
         border: 1px solid rgba(38,225,175,0.5);
@@ -29,7 +29,7 @@ export const Container = styled.div`
         height: 130px;
         position: absolute;
         right: 70px;
-        bottom: -110px;
+        bottom: -125px;
         z-index: -1;
         transform: rotate(45deg);
         border: 1px solid rgba(255,255,255,0.2);
