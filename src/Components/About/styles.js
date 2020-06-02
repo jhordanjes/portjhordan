@@ -43,12 +43,14 @@ export const Container = styled.div`
         padding: 0px 25px 55px 25px;
 
         &::before{
+            bottom: -145px;
             right: 25px;
             width: 100px;
             height: 100px;
         }
 
         &::after{
+            bottom: -115px;
             right: 25px;
             width: 100px;
             height: 100px;

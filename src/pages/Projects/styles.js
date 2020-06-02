@@ -12,7 +12,7 @@ export const Header = styled.div`
     position: absolute;
     right: 70px;
     bottom: -85px;
-    z-index: 1;
+    z-index: -1;
     transform: rotate(45deg);
     border: 1px solid rgba(38,225,175,0.5);
   }
@@ -24,7 +24,7 @@ export const Header = styled.div`
     position: absolute;
     right: 70px;
     bottom: -50px;
-    z-index: 1;
+    z-index: -1;
     transform: rotate(45deg);
     border: 1px solid rgba(255,255,255,0.2);
   }
@@ -103,4 +103,3 @@ export const Content = styled.div`
     }
   }
 `;
-
