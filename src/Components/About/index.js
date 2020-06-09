@@ -1,5 +1,6 @@
 import React from 'react';
 import { IoIosArrowRoundDown } from 'react-icons/io';
+import { HashLink } from 'react-router-hash-link';
 import jhordan from '../../assets/jhor.jpg';
 import { Title } from '../../styles';
 import { Container, Content, Box, Image, Text } from './styles';
@@ -41,9 +42,9 @@ export default function About() {
         </Content>
 
         <div>
-            <a href="#p">
+            <HashLink to="#p">
             <IoIosArrowRoundDown size={55} />
-            </a>
+            </HashLink>
         </div>
     </Container>
   );

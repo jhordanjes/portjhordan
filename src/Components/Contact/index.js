@@ -1,6 +1,5 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import { Link } from 'react-router-dom';
 import { Container, Social, Content, Message } from './styles';
 
 export default function Contact() {
@@ -12,7 +11,7 @@ export default function Contact() {
                 <span>precisando de</span>
                 <span>ajuda em</span>
                 <span>algum projeto?</span>
-                <Link to="/notfound">Vamos nos falar.</Link>
+                <a href="mailto:jhordanjes@gmail.com">Vamos nos falar.</a>
               </Fade>
               <p>
                 Vou adorar poder te ajudar ;)

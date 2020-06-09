@@ -17,7 +17,7 @@ export const Container = styled.div`
       display: ${props => (props.menu ? 'none' : 'block')};
     }
 
-    aside{
+    nav{
       display: ${props => (props.menu ? 'block' : 'none')};
       animation: ${up} 600ms ease forwards;
 
@@ -34,7 +34,7 @@ export const Container = styled.div`
       display: ${props => (props.menu ? 'none' : 'block')};
     }
 
-    aside{
+    nav{
       display: ${props => (props.menu ? 'block' : 'none')};
       animation: ${up} 600ms ease forwards;
 
@@ -67,7 +67,7 @@ export const Content = styled.div`
     }
   }
 
-  aside{
+  nav{
     a{
       color: rgba(255,255,255,0.7);
       margin-left: 35px;
