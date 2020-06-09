@@ -1,5 +1,5 @@
 <h1 align="center">
-  Portfólio - Jhordan Oliveira
+  <img alt="Jhordan Oliveira" src="/src/assets/logo.png" width="80px" /> - Jhordan Oliveira
 </h1>
 
 ## 💻 Projeto
