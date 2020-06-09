@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Jhordan Oliveira" src="/src/assets/logo.png" width="80px" /> - Jhordan Oliveira
+  <img alt="Jhordan Oliveira" src="/src/assets/logo.png" width="50px" /> Jhordan Oliveira_
 </h1>
 
 ## 💻 Projeto
