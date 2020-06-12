@@ -78,12 +78,18 @@ export const Content = styled.div`
       a{
           background: rgba(38,225,175);
           border-bottom: 3px solid #138868;
-          border-radius: 4px;
           color: rgba(1,1,1,0.8);
-          padding: 8px;
+          padding: 8px 12px;
           font-size: 15px;
           font-weight: bold;
+          margin-left: 5px;
           text-transform: uppercase;
+          transition: 0.3s background-color;
+
+          &:hover{
+            background: #138868;
+            border-bottom: 3px solid rgba(38,225,175);
+          }
       }
   }
   

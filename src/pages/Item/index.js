@@ -6,7 +6,7 @@ import Navbar from '../../Components/Navbar';
 import Contact from '../../Components/Contact';
 import { Content, Header } from './styles';
 import { Container, Title } from '../../styles';
-import gobarber from '../../assets/gobarberNew.png';
+import gobarber from '../../assets/gobarber.png';
 import gobarberRegister from '../../assets/gobarberRegister.png';
 import gobarberProfile from '../../assets/gobarberProfile.png';
 import gobarberDash from '../../assets/gobarberDash.png';
@@ -49,7 +49,7 @@ function Project() {
                 <div className="item"> <img src={gobarberDash} alt=""/> </div>
                 <div className="item"> <img src={gobarberProfile} alt=""/> </div>
             </AliceCarousel>
-            <p>Acompanhe no <a href="https://github.com/jhordanjes">github</a></p>
+            <p>Acompanhe no <a href="https://github.com/jhordanjes/gobarber-ts">github</a></p>
         </Content>
       </Container>
       <Contact />

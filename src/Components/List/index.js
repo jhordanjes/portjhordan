@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import gobarber from '../../assets/gobarberNew.png';
+import gobarber from '../../assets/gobarber.png';
 import github from '../../assets/github.png';
 import aircnc from '../../assets/aircnc.png';
+import gofinances from '../../assets/gofinances.png';
+import rocketshoes from '../../assets/rocketshoes.png';
 import { Projects, Description } from './styles';
  
 export default function Project() {
@@ -15,7 +17,7 @@ export default function Project() {
                         <img src={gobarber} alt="projeto" />
                         <Description>
                             <span>Gobarber<b>_</b></span>
-                            <p>Uma aplicação para prestadores de serviço</p>
+                            <p>Uma aplicação para prestadores de serviço.</p>
                         </Description>
                     </li>
                 </Link>
@@ -30,10 +32,10 @@ export default function Project() {
                 </Link>
                 <Link to="/project">
                     <li>
-                        <img src={gobarber} alt="projeto" />
+                        <img src={gofinances} alt="projeto" />
                         <Description>
-                            <span>Gobarber<b>_</b></span>
-                            <p>Uma aplicação para prestadores de serviço</p>
+                            <span>Gofinances<b>_</b></span>
+                            <p>Gerenciamento de impostos financeiros de entrada e saída.</p>
                         </Description>
                     </li>
                 </Link>
@@ -42,25 +44,25 @@ export default function Project() {
                         <img src={github} alt="projeto" />
                         <Description>
                             <span>Github Repositories<b>_</b></span>
-                            <p>Uma aplicação para prestadores de serviço</p>
+                            <p>Listar repositórios e issues.</p>
                         </Description>
                     </li>
                 </Link>
                 <Link to="/project">
                     <li>
-                        <img src={aircnc} alt="projeto" />
+                        <img src={rocketshoes} alt="projeto" />
                         <Description>
-                            <span>AirCnc<b>_</b></span>
-                            <p>Semana Omnistack 9, disponibilizar espaço para dev.</p>
+                            <span>Rocketshoes<b>_</b></span>
+                            <p>Aplicação de compras online.</p>
                         </Description>
                     </li>
                 </Link>
                 <Link to="/project">
                     <li>
-                        <img src={aircnc} alt="projeto" />
+                        <img src={gobarber} alt="projeto" />
                         <Description>
-                            <span>AirCnc<b>_</b></span>
-                            <p>Semana Omnistack 9, disponibilizar espaço para dev.</p>
+                            <span>Gobarber<b>_</b></span>
+                            <p>Uma aplicação para prestadores de serviço.</p>
                         </Description>
                     </li>
                 </Link>
